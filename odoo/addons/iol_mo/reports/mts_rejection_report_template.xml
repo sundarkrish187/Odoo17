@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_mts_rejection_template">
+        <t t-call="web.html_container">
+            <t t-name="web.external_layout">
+                <t t-call="web.basic_layout">
+
+                   
+
+
+                    <!-- Header -->
+                     
+
+                        <div   class="header" >
+                            <!-- Your logo or company name -->
+                            <span> <img src='/iol_mo/static/image/aod-logo.png' style="max-height: 90px;"/> </span>
+                            <span>  <h3>Appasamy Ocular Devices (p) Ltd., Puducherry.</h3> </span>   
+                            <span  style=" text-align:right;">  <strong style="font-weight: bold; ">Print Date: </strong>  <span t-esc="context_timestamp(datetime.datetime.now()).strftime('%Y-%m-%d %H:%M')"/>  
+                            </span>                     
+                        </div> 
+
+                        <!-- Print Date
+                        <div  style="text-align:right;" class="print-date">
+                            <span>Print Date: </span>
+                            <span t-esc="context_timestamp(datetime.datetime.now()).strftime('%Y-%m-%d %H:%M')"/>
+                        </div>  -->
+
+                  
+
+
+                    <t t-foreach="docs" t-as="doc">
+                        <div class="page">
+                            
+
+                            <h3 style="text-align:center;margin-bottom: 50px; font-weight: bold;">Material Transfer Slip (MTS)</h3>
+
+                            <p style="text-align:left;">
+                                <span > <strong style="font-weight: bold;" >MTS Number: </strong> <span t-esc="doc.name"/> </span>
+                                <span style="float:right;">
+                                    <span > <strong style="font-weight: bold;">From Location: </strong> <span t-esc="doc.src_location_id.name"/> </span>
+                                </span>
+                            </p>
+
+                            <div style="text-align:left;">
+                                <span >  <strong style="font-weight: bold;">Date: </strong> <span t-esc="doc.date"/> </span>
+                                <span style="float:right;">
+                                    <span >  <strong style="font-weight: bold;">To Location: </strong> <span t-esc="doc.dest_location_id.name"/> </span>
+                                </span>
+                            </div>
+
+
+                            <table class="table table-sm mt32" style=" border: 2px solid black; font-size: 16px;margin-bottom: 50px;">
+                                <thead style="font-size: 18px; font-weight: bold;">
+                                    <tr> 
+                                        <th>Product</th>                                    
+                                        <th>Unit of Measure</th>
+                                        <th>Lot/Serial No</th>
+                                        <th>Quantity</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <t t-set="seen_product_lots" t-value="[]"/>
+                                    <t t-foreach="doc.scrap_ids.sorted(key=lambda l: (l.product_id.id, l.lot_id.id))" t-as="line">
+                                        <t t-set="group_key" t-value="'{}{}'.format(line.product_id.id, line.lot_id.id if line.lot_id else '')"/>
+                                        <t t-if="group_key not in seen_product_lots">
+                                            <t t-set="seen_product_lots" t-value="seen_product_lots + [group_key]"/>
+                                            <t t-set="sum_qty" t-value="sum([l.scrap_qty for l in doc.scrap_ids if l.product_id.id == line.product_id.id and (not line.lot_id or l.lot_id.id == line.lot_id.id)])"/>
+                                            <!-- <tr>
+                                                <td><span t-esc="line.product_id.name"/></td>
+                                                <td><span t-esc="line.lot_id.name"/></td>
+                                                <td><span t-esc="sum_qty"/></td>
+                                                <td><span t-esc="line.product_uom_id.name"/></td>
+                                            </tr> -->
+                                            <tr>
+                                                <td t-esc="line.product_id.name"/>                                            
+                                                <td t-esc="line.product_uom_id.name"/>
+                                                <td t-esc="line.lot_id.name"/>
+                                                <td t-esc="sum_qty"/>
+                                            </tr>
+                                        </t>
+                                    </t>
+
+                                    <tr>
+                                        <td colspan="3" style="text-align: center;"><strong>Total</strong></td>
+                                        <td><strong><span t-esc="sum([l.scrap_qty for l in doc.scrap_ids])"/></strong></td>       
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                            
+
+
+                            <div class="row" style="display: flex; justify-content: space-between; margin-bottom: 20px; font-size: 18px;">
+                                <span >  <strong style="font-weight: bold;">Issued By:</strong> </span>
+                                <span style="text-align:right;margin-left: 300px;" >  <strong style="font-weight: bold;">Received By:</strong> </span>
+                            </div>
+
+                        </div>
+                    </t>
+                    
+                    
+                </t>
+
+                
+            </t>
+        </t>
+    </template>
+</odoo>

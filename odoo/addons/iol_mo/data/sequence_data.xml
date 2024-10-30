@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+ <!-- MTS Rejection sequence creation -->
+        <record id="sequence_boxpacking" model="ir.sequence">
+            <field name="name">MTS Rejection</field>
+            <field name="code">mts.rejection</field>
+            <field name="prefix">MTS/%(y)s%(month)s%(day)s/</field>
+            <field eval="6" name="padding"/>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="injector_label_reprint_form_view" model="ir.ui.view">
+		<field name="name">injector.label.reprint.form</field>
+		<field name="model">injector.label.reprint</field>			
+		<field name="arch" type="xml">
+		<form>         
+            <sheet>     
+                <group>
+                    <group>
+                        <field name="label_print_id"   />
+                        <field name="lot_id"   />                       
+                        
+                        <field name="product_id"  />  
+                        <field name="model" /> 
+                        <field name="sterile_batch" />
+                        <field name="mfd_date" />
+                        <field name="exp_date" />
+                        <field name="exp_date" />
+                        <field name="btw_master_id" />
+                        <field name="reprint_qty" />
+                    </group>
+                </group> 
+                    <button name="action_reprint" type="object" string="Reprint Label" class="btn-primary" /> 
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>  
+                         
+            </sheet>
+        </form>
+		</field>
+	</record>
+
+     
+
+
+</odoo>

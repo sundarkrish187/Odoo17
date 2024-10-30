@@ -1,0 +1,84 @@
+<odoo>
+    <record id="view_injector_label_print_form" model="ir.ui.view">
+        <field name="name">injector.label.print.form</field>
+        <field name="model">injector.label.print</field>
+        <field name="arch" type="xml">
+            <form string="Injector Label Print">
+                <header>
+                    <field name="state" widget="statusbar" 
+                            statusbar_colors='{"deficient":"red"}' />
+                </header>
+                    
+                <sheet> 
+                    <group>
+                        <group>
+                            <field name="lot_id" domain="[('product_id.categ_id.name', '=', 'INJECTOR-ASSEMBLY')]"  readonly="state == 'labelled'" options="{'no_create': True, 'no_create_edit':True}" />
+                            <field name="product_id"   invisible="lot_id == False"  readonly="state == 'labelled'"  options="{'no_create': True, 'no_create_edit':True}"/> 
+                            <field name="product_ids"   invisible="1"    /> 
+                            <field name="model" readonly="state == 'labelled'" options="{'no_create': True, 'no_create_edit':True}"/>
+                            <field name="compute_models_ids"   invisible="1"    /> 
+                            <field name="btw_master_id"   options="{'no_create': True, 'no_create_edit':True}"  readonly="state == 'labelled'" /> 
+                            <field name="btw_master_ids"   invisible="1"    /> 
+                            
+                        </group>
+                        <group>
+                            <field name="sterile_batch" />
+                            <field name="mfd_date" />
+                            <field name="exp_date" />
+                            
+                        </group>
+                    </group>
+                    <group>
+                        <field name="label_count" />
+                        <field name="printed_qty" />
+                        <field name="remaining_qty" />
+                        <field name="reprint_qty" />
+                    </group>
+                    <button name="action_print" type="object" string="Print Label" class="btn-primary"  invisible="state != 'not_labelled' or id == False "  />
+                    <button name="move_to_reprint" type="object" string="Reprint" class="btn-primary" invisible="state == 'not_labelled'"     />
+                </sheet> 
+            </form>
+        </field>
+    </record>
+    
+    <!-- tree view -->
+    <record id="view_injector_label_print_list" model="ir.ui.view">
+        <field name="name">injector.label.print.list</field>
+        <field name="model">injector.label.print</field>
+        <field name="arch" type="xml">
+            <tree string="Injector Label Print">
+                <field name="lot_id" />
+                <field name="sterile_batch" />
+                <field name="model" />
+                <field name="label_count" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="open_view_injector_label_print_form" model="ir.actions.act_window">
+        <field name="name">Injector Label Print</field>
+        <field name="res_model">injector.label.print</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    
+
+
+
+
+<!-- menus -->
+    <menuitem id="menu_view_label_print"
+                  name="Label Print"
+                  parent="mrp.menu_mrp_root"
+                  sequence="105"/>  
+
+    <menuitem id="menu_view_injector_label_print_form"
+          name="Injector Label Print"
+          parent="iol_mo.menu_view_label_print"
+          action="open_view_injector_label_print_form"
+          groups="iol_mo.injector_user_group"  
+          sequence="5"/>   
+          
+     
+          
+    
+</odoo>

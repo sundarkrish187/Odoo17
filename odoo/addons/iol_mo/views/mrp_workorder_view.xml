@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="iol_production_workorder_tree_view" model="ir.ui.view">
+            <field name="name">mrp.production.work.order.tree</field>
+            <field name="model">mrp.workorder</field>
+            <field name="mode">primary</field> 
+            <field name="inherit_id" ref="mrp.mrp_production_workorder_tree_editable_view"/>
+            <field name="arch" type="xml">
+                
+ 
+                <!-- Block -->
+                <xpath expr="//button[@name='%(mrp.act_mrp_block_workcenter_wo)d']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+                <!-- Unblock -->
+                <xpath expr="//button[@name='button_unblock']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+
+                <!-- Pause -->
+                <xpath expr="/tree/button[2]" position="replace">
+                    <button name="button_pending" type="object" string="Pause" class="btn-warning"
+                        invisible="production_state in ('draft', 'done', 'cancel') or working_state == 'blocked' or not is_user_working or qty_remaining == 0"/>
+                </xpath>
+
+                <!-- Start -->
+                <xpath expr="/tree/button[1]" position="replace">
+                    <button name="button_start" type="object" string="Start" class="btn-success"
+                    invisible="production_state in ('draft', 'done', 'cancel') or working_state == 'blocked' or state in ('done', 'cancel') or is_user_working  or qty_remaining == 0"/>
+
+                </xpath>
+
+                <!-- Done -->
+                <xpath expr="/tree/button[3]" position="replace">
+                    <button name="button_finish" type="object" string="Done" class="btn-success"
+                        invisible="production_state in ('draft', 'done', 'cancel') or working_state == 'blocked' or not is_user_working or qty_remaining == 0 "/>
+                </xpath>
+
+                <xpath expr="/tree/button[3]" position="after"> 
+                    <field name="invisible_btn_finish_wo"    column_invisible="True"/>  
+                    <button name="button_finish_wo" string="Complete" type="object"
+							class="btn-success"   invisible="invisible_btn_finish_wo" />
+                </xpath>
+
+                <xpath expr="//tree" position="attributes">
+                    <attribute name="create">0</attribute>
+                    <attribute name="delete">0</attribute>
+                    <attribute name="editable"/>
+                </xpath>
+                
+            </field>
+        </record>
+
+
+        <record id="iol_mrp_production_workorder_form_view_inherit" model="ir.ui.view">
+            <field name="name">mrp.production.work.order.form.inherit</field>
+            <field name="model">mrp.workorder</field>
+            <field name="inherit_id" ref="mrp.mrp_production_workorder_form_view_inherit"/>
+            <field name="arch" type="xml">
+                <xpath expr="/form/sheet/notebook/page/field/tree" position="attributes">
+                    <attribute name="create">0</attribute>
+                    <attribute name="delete">0</attribute>
+                    <attribute name="editable"/>
+                </xpath>
+                <xpath expr="/form/sheet/notebook/page[1]/field[1]" position="attributes">
+                    <attribute name="readonly">True</attribute>
+                </xpath>                
+            </field>
+        </record>
+
+
+        <!-- workorder wizard view -->
+        <record id="mrp_production_workorder_wizard_view_inherit" model="ir.ui.view">
+            <field name="name">mrp.production.work.order.wizard</field>
+            <field name="model">mrp.workorder</field>
+            <field name="inherit_id" ref="mrp.mrp_production_workorder_form_view_inherit"/>
+            <field name="arch" type="xml">
+               
+                <!-- Resource  -->
+                <xpath expr = "//page[@name='components']" position="after" >
+                   <page name="Resource details" string="Resource details">
+                        <group>                        
+                        <field name="resources"> 
+                        <tree>
+                        <field name="employeename" /> 
+                        <field name="machinename"/> 
+                        <field name="total_product_qty"/>                                                                         
+                        </tree>
+                       <form string="workorderresources">
+                       <group>                        
+                        <field name="employeename" string="Employee Name" options="{'no_create': True, 'no_create_edit':True}" required="1"/> 
+                        <field name="machinename" string="Machine Name" options="{'no_create': True, 'no_create_edit':True}" required="1"/> 
+                        <field name="total_product_qty" string="quantity" required="1"/>
+                        <field name="workorderId" invisible="1"/>
+                        </group>
+                        </form>                        
+                        </field>                    
+                        </group >
+                    </page>                  
+                </xpath>
+
+                <!-- <xpath expr= "/form/sheet/group[2]/group[1]" position="replace">
+                    <group invisible="1">
+                       
+                    </group>                                  
+                </xpath> -->
+
+                <field name='state' position='after'>
+                    <button name="move_to_scrap" string="Scrap" type="object"
+							class="oe_highlight"   invisible="is_invisible" /> 
+
+                    <button name="button_finish_wo" string="Complete" type="object"
+							class="btn-success"   invisible="invisible_btn_finish_wo" />
+                            <!--('state','not in',('progress')), -->
+                </field>
+
+                <xpath expr= "/form/sheet/group[1]/group[2]/field[2]" position="after">
+                    <field name="qty_produced"   invisible="not is_readonly" string ="Produced Quantity"/> 
+                    <field name="qty_producing"   readonly="is_readonly" invisible ="is_readonly"/> 
+                    <field name="qty_remaining"   readonly="True"/>
+                    <field name="is_readonly"   readonly="True" invisible="1"/> 
+                    <field name="is_invisible"   readonly="True" invisible="1"/>  
+                    <field name="invisible_btn_finish_wo"   invisible="1"/>   
+                    <field name="component_not_replaced"  readonly="True"  />           
+                </xpath>
+                <!-- modifiers="{'readonly': [('is_readonly', '=', True)]}" -->
+                <xpath expr = "/form/sheet/group[1]/group[2]" position = "inside" >
+                    <field name="rejection_qty"   readonly="True" />
+                    <field name="shift" string="Shift"   readonly="is_readonly"/>
+                    <field name="wo_date_start"    readonly="is_readonly"/>
+                    <field name="wo_date_stop"    readonly="is_readonly"/>
+                </xpath>
+            </field>
+        </record>
+
+
+     
+
+        <!-- <button name="button_start" type="object" string="Start" class="btn-success"
+                  invisible="production_state in ('draft', 'done', 'cancel') or working_state == 'blocked' or state in ('done', 'cancel') or is_user_working"/>
+                <button name="button_pending" type="object" string="Pause" class="btn-warning"
+                  invisible="production_state in ('draft', 'done', 'cancel') or working_state == 'blocked' or not is_user_working"/>
+                <button name="button_finish" type="object" string="Done" class="btn-success"
+                  invisible="production_state in ('draft', 'done', 'cancel') or working_state == 'blocked' or not is_user_working"/>
+                <button name="%(mrp.act_mrp_block_workcenter_wo)d" type="action" string="Block" context="{'default_workcenter_id': workcenter_id}" class="btn-danger"
+                  invisible="production_state in ('draft', 'done', 'cancel') or working_state == 'blocked'"/>
+                <button name="button_unblock" type="object" string="Unblock" context="{'default_workcenter_id': workcenter_id}" class="btn-danger"
+                  invisible="production_state in ('draft', 'done', 'cancel') or working_state != 'blocked'"/> -->
+
+    </data>
+</odoo>

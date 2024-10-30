@@ -1,0 +1,1003 @@
+2024-04-05 03:53:57,011 5024 INFO ? odoo: Odoo version 17.0-20240401 
+2024-04-05 03:53:57,011 5024 INFO ? odoo: Using configuration file at D:\odoo17\server\odoo.conf 
+2024-04-05 03:53:57,011 5024 INFO ? odoo: addons paths: ['D:\\odoo17\\server\\odoo\\addons', 'd:\\odoo17\\sessions\\addons\\17.0', 'd:\\odoo17\\server\\odoo\\addons'] 
+2024-04-05 03:53:57,011 5024 INFO ? odoo: database: openpg@localhost:5432 
+2024-04-05 03:54:04,309 5024 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\odoo17\thirdparty\wkhtmltopdf.exe 
+2024-04-05 03:54:09,028 5024 INFO ? odoo.service.server: Initiating shutdown 
+2024-04-05 03:54:09,028 5024 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-04-05 03:54:37,166 1940 INFO ? odoo: Odoo version 17.0-20240401 
+2024-04-05 03:54:37,166 1940 INFO ? odoo: Using configuration file at D:\odoo17\server\odoo.conf 
+2024-04-05 03:54:37,166 1940 INFO ? odoo: addons paths: ['D:\\odoo17\\server\\odoo\\addons', 'd:\\odoo17\\sessions\\addons\\17.0', 'd:\\odoo17\\server\\odoo\\addons'] 
+2024-04-05 03:54:37,166 1940 INFO ? odoo: database: openpg@localhost:5432 
+2024-04-05 03:54:37,369 1940 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at D:\odoo17\thirdparty\wkhtmltopdf.exe 
+2024-04-05 03:54:37,838 1940 INFO ? odoo.service.server: HTTP service (werkzeug) running on komu1988:8069 
+2024-04-05 03:54:39,729 1940 INFO ? odoo.sql_db: Connection to the database failed 
+2024-04-05 03:54:41,760 1940 INFO ? odoo.sql_db: Connection to the database failed 
+2024-04-05 04:05:05,561 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:05] "GET / HTTP/1.1" 303 - 1 0.016 0.100
+2024-04-05 04:05:05,646 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:05] "GET /web HTTP/1.1" 303 - 2 0.000 0.069
+2024-04-05 04:05:11,789 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:11] "GET /web/database/selector HTTP/1.1" 200 - 2 0.000 6.144
+2024-04-05 04:05:12,128 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:12] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 200 - 1 0.000 0.323
+2024-04-05 04:05:12,128 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:12] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 200 - 1 0.000 0.323
+2024-04-05 04:05:12,144 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:12] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 200 - 1 0.000 0.322
+2024-04-05 04:05:12,159 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:12] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.1" 200 - 1 0.000 0.354
+2024-04-05 04:05:12,159 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:12] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 200 - 1 0.000 0.354
+2024-04-05 04:05:12,175 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:12] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 - 1 0.000 0.385
+2024-04-05 04:05:12,305 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:12] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - 1 0.009 0.153
+2024-04-05 04:05:12,319 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:12] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 200 - 1 0.000 0.191
+2024-04-05 04:05:12,331 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:12] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 200 - 1 0.000 0.188
+2024-04-05 04:05:12,340 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:12] "GET /web/static/img/logo2.png HTTP/1.1" 200 - 1 0.005 0.160
+2024-04-05 04:05:12,469 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:12] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 1 0.004 0.097
+2024-04-05 04:05:13,425 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:13] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 1 0.019 0.035
+2024-04-05 04:05:24,115 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:24] "GET / HTTP/1.1" 303 - 1 0.016 0.029
+2024-04-05 04:05:24,384 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:24] "GET /web HTTP/1.1" 303 - 2 0.000 0.265
+2024-04-05 04:05:25,798 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:25] "GET /web/database/selector HTTP/1.1" 200 - 2 0.026 1.375
+2024-04-05 04:05:26,158 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:26] "GET /web/static/lib/bootstrap/js/dist/dom/data.js HTTP/1.1" 200 - 1 0.005 0.281
+2024-04-05 04:05:26,172 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:26] "GET /web/static/src/libs/fontawesome/css/font-awesome.css HTTP/1.1" 200 - 1 0.016 0.298
+2024-04-05 04:05:26,179 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:26] "GET /web/static/lib/bootstrap/js/dist/dom/selector-engine.js HTTP/1.1" 200 - 1 0.000 0.294
+2024-04-05 04:05:26,178 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:26] "GET /web/static/lib/bootstrap/js/dist/dom/event-handler.js HTTP/1.1" 200 - 1 0.013 0.294
+2024-04-05 04:05:26,179 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:26] "GET /web/static/lib/bootstrap/dist/css/bootstrap.css HTTP/1.1" 200 - 1 0.004 0.303
+2024-04-05 04:05:26,180 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:26] "GET /web/static/lib/bootstrap/js/dist/dom/manipulator.js HTTP/1.1" 200 - 1 0.000 0.308
+2024-04-05 04:05:26,293 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:26] "GET /web/static/lib/bootstrap/js/dist/base-component.js HTTP/1.1" 200 - 1 0.013 0.100
+2024-04-05 04:05:26,293 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:26] "GET /web/static/lib/bootstrap/js/dist/modal.js HTTP/1.1" 200 - 1 0.000 0.100
+2024-04-05 04:05:26,293 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:26] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - 1 0.013 0.087
+2024-04-05 04:05:26,345 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:26] "GET /web/static/img/logo2.png HTTP/1.1" 200 - 1 0.013 0.026
+2024-04-05 04:05:26,580 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:26] "GET /web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 200 - 1 0.004 0.045
+2024-04-05 04:05:26,632 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:26] "GET /web/static/img/favicon.ico HTTP/1.1" 200 - 1 0.000 0.052
+2024-04-05 04:05:47,247 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:47] "GET / HTTP/1.1" 303 - 1 0.000 0.039
+2024-04-05 04:05:47,321 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:47] "GET /web HTTP/1.1" 303 - 2 0.003 0.059
+2024-04-05 04:05:48,509 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:05:48] "GET /web/database/selector HTTP/1.1" 200 - 2 0.000 1.174
+2024-04-05 04:07:28,235 1940 INFO None odoo.service.db: Create database `test`. 
+2024-04-05 04:07:38,147 1940 INFO test odoo.modules.loading: loading 1 modules... 
+2024-04-05 04:07:38,147 1940 INFO test odoo.modules.loading: Loading module base (1/1) 
+2024-04-05 04:07:38,194 1940 INFO test odoo.modules.registry: module base: creating or updating database tables 
+2024-04-05 04:07:41,737 1940 INFO test odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2024-04-05 04:07:41,737 1940 INFO test odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2024-04-05 04:07:41,737 1940 INFO test odoo.models: Prepare computation of ir.module.module.views_by_module 
+2024-04-05 04:07:43,487 1940 INFO test odoo.models: Prepare computation of res.partner.user_id 
+2024-04-05 04:07:43,487 1940 INFO test odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2024-04-05 04:07:43,487 1940 INFO test odoo.models: Prepare computation of res.partner.complete_name 
+2024-04-05 04:07:43,487 1940 INFO test odoo.models: Prepare computation of res.partner.company_registry 
+2024-04-05 04:07:43,487 1940 INFO test odoo.models: Prepare computation of res.partner.commercial_company_name 
+2024-04-05 04:07:43,487 1940 INFO test odoo.models: Prepare computation of res.partner.partner_share 
+2024-04-05 04:07:43,803 1940 INFO test odoo.models: Prepare computation of res.currency.decimal_places 
+2024-04-05 04:07:44,041 1940 INFO test odoo.models: Prepare computation of res.company.uses_default_logo 
+2024-04-05 04:07:44,041 1940 INFO test odoo.models: Prepare computation of res.company.logo_web 
+2024-04-05 04:07:44,125 1940 INFO test odoo.models: Computing parent_path for table res_company... 
+2024-04-05 04:07:44,326 1940 INFO test odoo.models: Prepare computation of res.users.signature 
+2024-04-05 04:07:44,326 1940 INFO test odoo.models: Prepare computation of res.users.share 
+2024-04-05 04:07:52,256 1940 INFO test odoo.modules.loading: loading base/data/res_bank.xml 
+2024-04-05 04:07:52,357 1940 INFO test odoo.modules.loading: loading base/data/res.lang.csv 
+2024-04-05 04:07:52,457 1940 INFO test odoo.modules.loading: loading base/data/res_lang_data.xml 
+2024-04-05 04:07:52,588 1940 INFO test odoo.modules.loading: loading base/data/res_partner_data.xml 
+2024-04-05 04:07:52,704 1940 INFO test odoo.modules.loading: loading base/data/res_currency_data.xml 
+2024-04-05 04:07:53,621 1940 INFO test odoo.modules.loading: loading base/data/res_company_data.xml 
+2024-04-05 04:07:53,643 1940 INFO test odoo.modules.loading: loading base/data/res_users_data.xml 
+2024-04-05 04:07:55,663 1940 INFO test odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2024-04-05 04:07:55,694 1940 INFO test odoo.modules.loading: loading base/data/res_country_data.xml 
+2024-04-05 04:07:56,449 1940 INFO test odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2024-04-05 04:07:56,465 1940 INFO test odoo.modules.loading: loading base/security/base_groups.xml 
+2024-04-05 04:07:56,850 1940 INFO test odoo.modules.loading: loading base/security/base_security.xml 
+2024-04-05 04:07:57,128 1940 INFO test odoo.modules.loading: loading base/views/base_menus.xml 
+2024-04-05 04:07:57,683 1940 INFO test odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2024-04-05 04:07:57,851 1940 INFO test odoo.modules.loading: loading base/views/res_config_views.xml 
+2024-04-05 04:07:57,898 1940 INFO test odoo.modules.loading: loading base/data/res.country.state.csv 
+2024-04-05 04:07:59,170 1940 INFO test odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2024-04-05 04:07:59,386 1940 INFO test odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2024-04-05 04:07:59,433 1940 INFO test odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2024-04-05 04:07:59,455 1940 INFO test odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2024-04-05 04:07:59,518 1940 INFO test odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2024-04-05 04:07:59,556 1940 INFO test odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2024-04-05 04:07:59,587 1940 INFO test odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2024-04-05 04:07:59,618 1940 INFO test odoo.modules.loading: loading base/views/ir_model_views.xml 
+2024-04-05 04:07:59,934 1940 INFO test odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2024-04-05 04:07:59,972 1940 INFO test odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2024-04-05 04:08:00,019 1940 INFO test odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2024-04-05 04:08:00,057 1940 INFO test odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2024-04-05 04:08:00,088 1940 INFO test odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2024-04-05 04:08:00,157 1940 INFO test odoo.modules.loading: loading base/views/ir_default_views.xml 
+2024-04-05 04:08:00,188 1940 INFO test odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2024-04-05 04:08:00,235 1940 INFO test odoo.modules.loading: loading base/report/ir_model_report.xml 
+2024-04-05 04:08:00,235 1940 INFO test odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2024-04-05 04:08:00,257 1940 INFO test odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2024-04-05 04:08:00,289 1940 INFO test odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2024-04-05 04:08:00,335 1940 INFO test odoo.modules.loading: loading base/views/ir_module_views.xml 
+2024-04-05 04:08:00,420 1940 INFO test odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2024-04-05 04:08:00,520 1940 INFO test odoo.modules.loading: loading base/data/ir_module_module.xml 
+2024-04-05 04:08:00,636 1940 INFO test odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2024-04-05 04:08:00,652 1940 INFO test odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2024-04-05 04:08:00,657 1940 INFO test odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2024-04-05 04:08:00,689 1940 INFO test odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2024-04-05 04:08:00,705 1940 INFO test odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2024-04-05 04:08:00,720 1940 INFO test odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2024-04-05 04:08:00,757 1940 INFO test odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2024-04-05 04:08:00,757 1940 INFO test odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2024-04-05 04:08:00,789 1940 INFO test odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2024-04-05 04:08:00,804 1940 INFO test odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2024-04-05 04:08:00,836 1940 INFO test odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2024-04-05 04:08:00,889 1940 INFO test odoo.modules.loading: loading base/views/res_company_views.xml 
+2024-04-05 04:08:00,936 1940 INFO test odoo.modules.loading: loading base/views/res_lang_views.xml 
+2024-04-05 04:08:00,958 1940 INFO test odoo.modules.loading: loading base/views/res_partner_views.xml 
+2024-04-05 04:08:01,136 1940 INFO test odoo.modules.loading: loading base/views/res_bank_views.xml 
+2024-04-05 04:08:01,205 1940 INFO test odoo.modules.loading: loading base/views/res_country_views.xml 
+2024-04-05 04:08:01,274 1940 INFO test odoo.modules.loading: loading base/views/res_currency_views.xml 
+2024-04-05 04:08:01,337 1940 INFO test odoo.modules.loading: loading base/views/res_users_views.xml 
+2024-04-05 04:08:01,506 1940 INFO test odoo.modules.loading: loading base/views/res_users_identitycheck_views.xml 
+2024-04-05 04:08:01,522 1940 INFO test odoo.modules.loading: loading base/views/ir_property_views.xml 
+2024-04-05 04:08:01,559 1940 INFO test odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2024-04-05 04:08:01,575 1940 INFO test odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2024-04-05 04:08:01,622 1940 INFO test odoo.modules.loading: loading base/security/ir.model.access.csv 
+2024-04-05 04:08:02,622 1940 INFO test odoo.modules.loading: Module base loaded in 24.48s, 7912 queries (+7912 other) 
+2024-04-05 04:08:02,622 1940 INFO test odoo.modules.loading: 1 modules loaded in 24.48s, 7912 queries (+7912 extra) 
+2024-04-05 04:08:02,691 1940 INFO test odoo.modules.loading: updating modules list 
+2024-04-05 04:08:02,691 1940 INFO test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2024-04-05 04:08:03,678 1940 INFO test odoo.modules.loading: loading 11 modules... 
+2024-04-05 04:08:03,678 1940 INFO test odoo.modules.loading: Loading module web (2/11) 
+2024-04-05 04:08:03,725 1940 INFO test odoo.modules.registry: module web: creating or updating database tables 
+2024-04-05 04:08:04,742 1940 INFO test odoo.modules.loading: loading web/security/ir.model.access.csv 
+2024-04-05 04:08:04,764 1940 INFO test odoo.modules.loading: loading web/views/webclient_templates.xml 
+2024-04-05 04:08:04,861 1940 INFO test odoo.modules.loading: loading web/views/report_templates.xml 
+2024-04-05 04:08:04,981 1940 INFO test odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2024-04-05 04:08:05,043 1940 INFO test odoo.modules.loading: loading web/views/partner_view.xml 
+2024-04-05 04:08:05,081 1940 INFO test odoo.modules.loading: loading web/views/speedscope_template.xml 
+2024-04-05 04:08:05,081 1940 INFO test odoo.modules.loading: loading web/views/neutralize_views.xml 
+2024-04-05 04:08:05,096 1940 INFO test odoo.modules.loading: loading web/data/ir_attachment.xml 
+2024-04-05 04:08:05,096 1940 INFO test odoo.modules.loading: loading web/data/report_layout.xml 
+2024-04-05 04:08:05,243 1940 INFO test odoo.modules.loading: Module web loaded in 1.56s, 941 queries (+941 other) 
+2024-04-05 04:08:05,243 1940 INFO test odoo.modules.loading: Loading module auth_totp (3/11) 
+2024-04-05 04:08:05,428 1940 INFO test odoo.modules.registry: module auth_totp: creating or updating database tables 
+2024-04-05 04:08:05,828 1940 INFO test odoo.modules.loading: loading auth_totp/security/security.xml 
+2024-04-05 04:08:05,881 1940 INFO test odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2024-04-05 04:08:05,896 1940 INFO test odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2024-04-05 04:08:05,896 1940 INFO test odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2024-04-05 04:08:05,943 1940 INFO test odoo.modules.loading: loading auth_totp/views/templates.xml 
+2024-04-05 04:08:05,959 1940 INFO test odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2024-04-05 04:08:05,997 1940 INFO test odoo.modules.loading: Module auth_totp loaded in 0.75s, 177 queries (+177 other) 
+2024-04-05 04:08:05,997 1940 INFO test odoo.modules.loading: Loading module base_import (4/11) 
+2024-04-05 04:08:06,097 1940 INFO test odoo.modules.registry: module base_import: creating or updating database tables 
+2024-04-05 04:08:07,099 1940 INFO test odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2024-04-05 04:08:07,199 1940 INFO test odoo.modules.loading: Module base_import loaded in 1.20s, 753 queries (+753 other) 
+2024-04-05 04:08:07,199 1940 INFO test odoo.modules.loading: Loading module base_import_module (5/11) 
+2024-04-05 04:08:07,299 1940 INFO test odoo.modules.registry: module base_import_module: creating or updating database tables 
+2024-04-05 04:08:07,569 1940 INFO test odoo.modules.loading: loading base_import_module/security/ir.model.access.csv 
+2024-04-05 04:08:07,600 1940 INFO test odoo.modules.loading: loading base_import_module/views/base_import_module_view.xml 
+2024-04-05 04:08:07,647 1940 INFO test odoo.modules.loading: loading base_import_module/views/ir_module_views.xml 
+2024-04-05 04:08:07,716 1940 INFO test odoo.modules.loading: Module base_import_module loaded in 0.52s, 142 queries (+142 other) 
+2024-04-05 04:08:07,716 1940 INFO test odoo.modules.loading: Loading module base_setup (6/11) 
+2024-04-05 04:08:07,816 1940 INFO test odoo.modules.registry: module base_setup: creating or updating database tables 
+2024-04-05 04:08:07,916 1940 INFO test odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2024-04-05 04:08:07,916 1940 INFO test odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2024-04-05 04:08:07,969 1940 INFO test odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2024-04-05 04:08:08,001 1940 INFO test odoo.modules.loading: Module base_setup loaded in 0.28s, 137 queries (+137 other) 
+2024-04-05 04:08:08,001 1940 INFO test odoo.modules.loading: Loading module bus (7/11) 
+2024-04-05 04:08:08,201 1940 INFO test odoo.modules.registry: module bus: creating or updating database tables 
+2024-04-05 04:08:08,485 1940 INFO test odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2024-04-05 04:08:08,516 1940 INFO test odoo.modules.loading: Module bus loaded in 0.52s, 107 queries (+107 other) 
+2024-04-05 04:08:08,516 1940 INFO test odoo.modules.loading: Loading module web_tour (8/11) 
+2024-04-05 04:08:08,570 1940 INFO test odoo.modules.registry: module web_tour: creating or updating database tables 
+2024-04-05 04:08:08,670 1940 INFO test odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2024-04-05 04:08:08,686 1940 INFO test odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2024-04-05 04:08:08,717 1940 INFO test odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2024-04-05 04:08:08,770 1940 INFO test odoo.modules.loading: Module web_tour loaded in 0.25s, 104 queries (+104 other) 
+2024-04-05 04:08:08,770 1940 INFO test odoo.modules.loading: Loading module iap (9/11) 
+2024-04-05 04:08:08,848 1940 INFO test odoo.modules.registry: module iap: creating or updating database tables 
+2024-04-05 04:08:09,133 1940 INFO test odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2024-04-05 04:08:09,149 1940 INFO test odoo.modules.loading: loading iap/security/ir_rule.xml 
+2024-04-05 04:08:09,168 1940 INFO test odoo.modules.loading: loading iap/views/iap_views.xml 
+2024-04-05 04:08:09,201 1940 INFO test odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2024-04-05 04:08:09,248 1940 INFO test odoo.modules.loading: Module iap loaded in 0.48s, 151 queries (+151 other) 
+2024-04-05 04:08:09,248 1940 INFO test odoo.modules.loading: Loading module web_editor (10/11) 
+2024-04-05 04:08:09,548 1940 INFO test odoo.modules.registry: module web_editor: creating or updating database tables 
+2024-04-05 04:08:10,635 1940 INFO test odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2024-04-05 04:08:10,651 1940 INFO test odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2024-04-05 04:08:10,670 1940 INFO test odoo.modules.loading: loading web_editor/views/editor.xml 
+2024-04-05 04:08:10,688 1940 INFO test odoo.modules.loading: loading web_editor/views/snippets.xml 
+2024-04-05 04:08:10,773 1940 INFO test odoo.modules.loading: Module web_editor loaded in 1.52s, 859 queries (+859 other) 
+2024-04-05 04:08:10,773 1940 INFO test odoo.modules.loading: Loading module web_unsplash (11/11) 
+2024-04-05 04:08:10,820 1940 INFO test odoo.modules.registry: module web_unsplash: creating or updating database tables 
+2024-04-05 04:08:10,904 1940 INFO test odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2024-04-05 04:08:10,972 1940 INFO test odoo.modules.loading: Module web_unsplash loaded in 0.20s, 93 queries (+93 other) 
+2024-04-05 04:08:10,972 1940 INFO test odoo.modules.loading: 11 modules loaded in 7.29s, 3464 queries (+3464 extra) 
+2024-04-05 04:08:11,421 1940 INFO test odoo.modules.loading: Modules loaded. 
+2024-04-05 04:08:11,421 1940 INFO test odoo.modules.registry: Registry loaded in 33.290s 
+2024-04-05 04:08:13,308 1940 INFO test odoo.addons.base.models.res_users: Login successful for db:test login:admin from 127.0.0.1 
+2024-04-05 04:08:13,323 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:13] "POST /web/database/create HTTP/1.1" 303 - 16857 31.156 17.608
+2024-04-05 04:08:13,339 1940 INFO test odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-04-05 04:08:13,377 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:13] "GET /web HTTP/1.1" 303 - 5 0.000 0.053
+2024-04-05 04:08:13,740 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:13] "GET /web/login HTTP/1.1" 200 - 50 0.016 0.348
+2024-04-05 04:08:13,941 1940 INFO test odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/2964f07/web.assets_frontend_minimal.min.js (id:13) 
+2024-04-05 04:08:13,941 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:13] "GET /web/assets/2964f07/web.assets_frontend_minimal.min.js HTTP/1.1" 200 - 12 0.018 0.130
+2024-04-05 04:08:25,134 1940 INFO test odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/789ce00/web.assets_frontend.min.css (id:14) 
+2024-04-05 04:08:25,134 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:25] "GET /web/assets/789ce00/web.assets_frontend.min.css HTTP/1.1" 200 - 9 0.034 11.306
+2024-04-05 04:08:25,149 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:25] "GET /web/binary/company_logo HTTP/1.1" 200 - 2 0.000 0.000
+2024-04-05 04:08:27,251 1940 INFO test odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/bb3371e/web.assets_frontend_lazy.min.js (id:15) 
+2024-04-05 04:08:27,251 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:27] "GET /web/assets/bb3371e/web.assets_frontend_lazy.min.js HTTP/1.1" 200 - 9 0.016 1.971
+2024-04-05 04:08:27,504 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:27] "GET /web/webclient/translations/1712290107484 HTTP/1.1" 200 - 4 0.000 0.021
+2024-04-05 04:08:27,552 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:27] "GET /web/static/img/spin.svg HTTP/1.1" 200 - 0 0.000 0.031
+2024-04-05 04:08:32,875 1940 INFO test odoo.addons.base.models.res_users: Login successful for db:test login:admin from 127.0.0.1 
+2024-04-05 04:08:32,875 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:32] "POST /web/login HTTP/1.1" 303 - 26 0.031 1.072
+2024-04-05 04:08:33,260 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:33] "GET /web HTTP/1.1" 200 - 62 0.065 0.304
+2024-04-05 04:08:49,095 1940 INFO test odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/402369e/web.assets_web.min.css (id:16) 
+2024-04-05 04:08:49,133 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:49] "GET /web/assets/402369e/web.assets_web.min.css HTTP/1.1" 200 - 12 0.063 15.757
+2024-04-05 04:08:51,900 1940 INFO test odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/edaff41/web.assets_web.min.js (id:17) 
+2024-04-05 04:08:51,922 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:51] "GET /web/assets/edaff41/web.assets_web.min.js HTTP/1.1" 200 - 11 0.016 18.593
+2024-04-05 04:08:51,984 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:51] "GET /web/webclient/load_menus/172bef6a7af96680ac3a6d836ca7e789cae2e213afe9556bbb3468597f3484c3 HTTP/1.1" 200 - 1 0.000 0.000
+2024-04-05 04:08:51,984 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:51] "GET /web/webclient/translations/c097a4426362f8e75854b784c5418b565eb85939?lang=en_US HTTP/1.1" 200 - 3 0.000 0.016
+2024-04-05 04:08:52,000 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:52] "GET /web/static/img/odoo-icon-ios.png HTTP/1.1" 200 - 0 0.000 0.016
+2024-04-05 04:08:52,422 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:52] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.022
+2024-04-05 04:08:52,554 1940 INFO test odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/11539ec/bus.websocket_worker_assets.min.js (id:18) 
+2024-04-05 04:08:52,554 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:52] "GET /bus/websocket_worker_bundle?v=1.0.7 HTTP/1.1" 200 - 8 0.000 0.085
+2024-04-05 04:08:52,570 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:52] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.000
+2024-04-05 04:08:52,585 1940 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2024-04-05 04:08:52,954 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:52] "GET /web/offline HTTP/1.1" 200 - 6 0.000 0.031
+2024-04-05 04:08:53,440 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:53] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 8 0.001 0.053
+2024-04-05 04:08:53,440 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:53] "POST /web/action/load HTTP/1.1" 200 - 9 0.019 0.034
+2024-04-05 04:08:53,440 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:53] "GET /web/static/lib/odoo_ui_icons/fonts/odoo_ui_icons.woff2 HTTP/1.1" 200 - 0 0.000 0.038
+2024-04-05 04:08:54,489 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:54] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 47 0.049 0.036
+2024-04-05 04:08:54,524 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:54] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 1 0.016 0.004
+2024-04-05 04:08:54,558 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:54] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 40 0.018 0.035
+2024-04-05 04:08:55,043 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:55] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.000 0.517
+2024-04-05 04:08:55,159 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:55] "GET /base/static/img/avatar.png HTTP/1.1" 200 - 0 0.000 0.032
+2024-04-05 04:08:56,527 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /sale_management/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.020
+2024-04-05 04:08:56,529 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /pos_restaurant/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.022
+2024-04-05 04:08:56,529 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /account/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-04-05 04:08:56,529 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /website/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.000
+2024-04-05 04:08:56,545 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /crm/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.021
+2024-04-05 04:08:56,549 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/mrp_workorder.png HTTP/1.1" 200 - 0 0.000 0.020
+2024-04-05 04:08:56,553 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /stock/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.024
+2024-04-05 04:08:56,565 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/knowledge.png HTTP/1.1" 200 - 0 0.000 0.017
+2024-04-05 04:08:56,565 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/account_accountant.png HTTP/1.1" 200 - 0 0.000 0.021
+2024-04-05 04:08:56,573 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /point_of_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.016
+2024-04-05 04:08:56,579 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /purchase/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.022
+2024-04-05 04:08:56,582 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /website_sale/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2024-04-05 04:08:56,583 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /project/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.015
+2024-04-05 04:08:56,589 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /mass_mailing/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-04-05 04:08:56,591 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /mrp/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.016
+2024-04-05 04:08:56,600 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /hr_expense/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-04-05 04:08:56,603 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/timesheet_grid.png HTTP/1.1" 200 - 0 0.000 0.012
+2024-04-05 04:08:56,612 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/web_studio.png HTTP/1.1" 200 - 0 0.000 0.014
+2024-04-05 04:08:56,618 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2024-04-05 04:08:56,622 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /hr_holidays/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.021
+2024-04-05 04:08:56,623 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/industry_fsm.png HTTP/1.1" 200 - 0 0.000 0.016
+2024-04-05 04:08:56,629 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /data_recycle/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.015
+2024-04-05 04:08:56,630 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /hr/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.016
+2024-04-05 04:08:56,638 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/sign.png HTTP/1.1" 200 - 0 0.000 0.013
+2024-04-05 04:08:56,641 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /maintenance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.017
+2024-04-05 04:08:56,647 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/helpdesk.png HTTP/1.1" 200 - 0 0.000 0.013
+2024-04-05 04:08:56,649 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/sale_subscription.png HTTP/1.1" 200 - 0 0.000 0.011
+2024-04-05 04:08:56,652 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/quality_control.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-04-05 04:08:56,663 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /website_slides/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.017
+2024-04-05 04:08:56,673 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/planning.png HTTP/1.1" 200 - 0 0.000 0.018
+2024-04-05 04:08:56,675 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /website_event/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.015
+2024-04-05 04:08:56,676 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /mail/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.014
+2024-04-05 04:08:56,683 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /contacts/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.016
+2024-04-05 04:08:56,683 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/mrp_plm.png HTTP/1.1" 200 - 0 0.000 0.011
+2024-04-05 04:08:56,692 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /calendar/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.015
+2024-04-05 04:08:56,693 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/social.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-04-05 04:08:56,703 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /fleet/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-04-05 04:08:56,705 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/hr_appraisal.png HTTP/1.1" 200 - 0 0.000 0.014
+2024-04-05 04:08:56,710 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/marketing_automation.png HTTP/1.1" 200 - 0 0.000 0.012
+2024-04-05 04:08:56,712 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /im_livechat/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2024-04-05 04:08:56,719 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/appointment.png HTTP/1.1" 200 - 0 0.000 0.016
+2024-04-05 04:08:56,727 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /survey/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.018
+2024-04-05 04:08:56,730 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /repair/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-04-05 04:08:56,734 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /hr_attendance/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2024-04-05 04:08:56,735 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/web_mobile.png HTTP/1.1" 200 - 0 0.000 0.021
+2024-04-05 04:08:56,738 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /mass_mailing_sms/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.013
+2024-04-05 04:08:56,745 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/stock_barcode.png HTTP/1.1" 200 - 0 0.000 0.012
+2024-04-05 04:08:56,748 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /project_todo/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.007
+2024-04-05 04:08:56,755 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /hr_skills/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-04-05 04:08:56,760 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/voip.png HTTP/1.1" 200 - 0 0.000 0.011
+2024-04-05 04:08:56,765 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /lunch/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.011
+2024-04-05 04:08:56,771 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /website_hr_recruitment/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.012
+2024-04-05 04:08:56,773 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/sale_amazon.png HTTP/1.1" 200 - 0 0.000 0.010
+2024-04-05 04:08:56,773 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /base/static/img/icons/sale_ebay.png HTTP/1.1" 200 - 0 0.000 0.009
+2024-04-05 04:08:56,775 1940 INFO ? werkzeug: 127.0.0.1 - - [05/Apr/2024 04:08:56] "GET /hr_contract/static/description/icon.png HTTP/1.1" 200 - 0 0.000 0.008
+2024-04-05 04:11:19,768 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:11:19] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 36 0.033 0.052
+2024-04-05 04:11:19,783 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:11:19] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.000 0.000
+2024-04-05 04:11:21,285 1940 INFO test odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Manufacturing'] to user admin #2 via 127.0.0.1 
+2024-04-05 04:11:21,285 1940 INFO test odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2024-04-05 04:11:21,285 1940 INFO test odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Manufacturing'] to user admin #2 via 127.0.0.1 
+2024-04-05 04:11:21,503 1940 INFO test odoo.modules.loading: loading 1 modules... 
+2024-04-05 04:11:21,508 1940 INFO test odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2024-04-05 04:11:21,539 1940 INFO test odoo.modules.loading: updating modules list 
+2024-04-05 04:11:21,555 1940 INFO test odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2024-04-05 04:11:22,503 1940 INFO test odoo.modules.loading: loading 11 modules... 
+2024-04-05 04:11:22,509 1940 INFO test odoo.modules.loading: 11 modules loaded in 0.01s, 0 queries (+0 extra) 
+2024-04-05 04:11:22,509 1940 INFO test odoo.modules.loading: loading 35 modules... 
+2024-04-05 04:11:22,509 1940 INFO test odoo.modules.loading: Loading module uom (2/35) 
+2024-04-05 04:11:22,587 1940 INFO test odoo.modules.registry: module uom: creating or updating database tables 
+2024-04-05 04:11:22,825 1940 INFO test odoo.modules.loading: loading uom/data/uom_data.xml 
+2024-04-05 04:11:22,941 1940 INFO test odoo.modules.loading: loading uom/security/uom_security.xml 
+2024-04-05 04:11:22,972 1940 INFO test odoo.modules.loading: loading uom/security/ir.model.access.csv 
+2024-04-05 04:11:22,988 1940 INFO test odoo.modules.loading: loading uom/views/uom_uom_views.xml 
+2024-04-05 04:11:23,072 1940 INFO test odoo.modules.loading: Module uom loaded in 0.56s, 251 queries (+251 other) 
+2024-04-05 04:11:23,072 1940 INFO test odoo.modules.loading: Loading module barcodes (5/35) 
+2024-04-05 04:11:23,141 1940 INFO test odoo.modules.registry: module barcodes: creating or updating database tables 
+2024-04-05 04:11:23,373 1940 INFO test odoo.modules.loading: loading barcodes/data/barcodes_data.xml 
+2024-04-05 04:11:23,410 1940 INFO test odoo.modules.loading: loading barcodes/views/barcodes_view.xml 
+2024-04-05 04:11:23,442 1940 INFO test odoo.modules.loading: loading barcodes/security/ir.model.access.csv 
+2024-04-05 04:11:23,489 1940 INFO test odoo.modules.loading: Module barcodes loaded in 0.42s, 130 queries (+130 other) 
+2024-04-05 04:11:23,489 1940 INFO test odoo.modules.loading: Loading module http_routing (10/35) 
+2024-04-05 04:11:23,526 1940 INFO test odoo.modules.registry: module http_routing: creating or updating database tables 
+2024-04-05 04:11:23,542 1940 INFO test odoo.modules.loading: loading http_routing/views/http_routing_template.xml 
+2024-04-05 04:11:23,611 1940 INFO test odoo.modules.loading: loading http_routing/views/res_lang_views.xml 
+2024-04-05 04:11:23,642 1940 INFO test odoo.modules.loading: Module http_routing loaded in 0.15s, 71 queries (+71 other) 
+2024-04-05 04:11:23,642 1940 INFO test odoo.modules.loading: Loading module resource (11/35) 
+2024-04-05 04:11:23,789 1940 INFO test odoo.modules.registry: module resource: creating or updating database tables 
+2024-04-05 04:11:24,813 1940 INFO test odoo.modules.loading: loading resource/data/resource_data.xml 
+2024-04-05 04:11:24,845 1940 INFO test odoo.modules.loading: loading resource/security/ir.model.access.csv 
+2024-04-05 04:11:24,876 1940 INFO test odoo.modules.loading: loading resource/security/resource_security.xml 
+2024-04-05 04:11:24,929 1940 INFO test odoo.modules.loading: loading resource/views/resource_resource_views.xml 
+2024-04-05 04:11:24,960 1940 INFO test odoo.modules.loading: loading resource/views/resource_calendar_leaves_views.xml 
+2024-04-05 04:11:25,013 1940 INFO test odoo.modules.loading: loading resource/views/resource_calendar_attendance_views.xml 
+2024-04-05 04:11:25,029 1940 INFO test odoo.modules.loading: loading resource/views/resource_calendar_views.xml 
+2024-04-05 04:11:25,076 1940 INFO test odoo.modules.loading: loading resource/views/menuitems.xml 
+2024-04-05 04:11:25,129 1940 INFO test odoo.modules.loading: Module resource loaded in 1.49s, 401 queries (+401 other) 
+2024-04-05 04:11:25,129 1940 INFO test odoo.modules.loading: Loading module barcodes_gs1_nomenclature (13/35) 
+2024-04-05 04:11:25,192 1940 INFO test odoo.modules.registry: module barcodes_gs1_nomenclature: creating or updating database tables 
+2024-04-05 04:11:25,292 1940 INFO test odoo.modules.loading: loading barcodes_gs1_nomenclature/data/barcodes_gs1_rules.xml 
+2024-04-05 04:11:25,415 1940 INFO test odoo.modules.loading: loading barcodes_gs1_nomenclature/views/barcodes_view.xml 
+2024-04-05 04:11:25,462 1940 INFO test odoo.modules.loading: Module barcodes_gs1_nomenclature loaded in 0.33s, 189 queries (+189 other) 
+2024-04-05 04:11:25,462 1940 INFO test odoo.modules.loading: Loading module mail (15/35) 
+2024-04-05 04:11:26,363 1940 INFO test odoo.modules.registry: module mail: creating or updating database tables 
+2024-04-05 04:11:30,238 1940 INFO test odoo.models: Prepare computation of ir.actions.server.partner_ids 
+2024-04-05 04:11:30,238 1940 INFO test odoo.models: Prepare computation of ir.actions.server.template_id 
+2024-04-05 04:11:30,238 1940 INFO test odoo.models: Prepare computation of ir.actions.server.activity_type_id 
+2024-04-05 04:11:30,238 1940 INFO test odoo.models: Prepare computation of ir.actions.server.activity_date_deadline_range 
+2024-04-05 04:11:30,238 1940 INFO test odoo.models: Prepare computation of ir.actions.server.activity_user_id 
+2024-04-05 04:11:30,238 1940 INFO test odoo.models: Prepare computation of ir.actions.server.mail_post_method 
+2024-04-05 04:11:30,238 1940 INFO test odoo.models: Prepare computation of ir.actions.server.activity_summary 
+2024-04-05 04:11:30,238 1940 INFO test odoo.models: Prepare computation of ir.actions.server.activity_date_deadline_range_type 
+2024-04-05 04:11:30,238 1940 INFO test odoo.models: Prepare computation of ir.actions.server.activity_user_type 
+2024-04-05 04:11:30,238 1940 INFO test odoo.models: Prepare computation of ir.actions.server.activity_user_field_name 
+2024-04-05 04:11:30,238 1940 INFO test odoo.models: Prepare computation of ir.actions.server.activity_note 
+2024-04-05 04:11:30,238 1940 INFO test odoo.models: Prepare computation of ir.actions.server.mail_post_autofollow 
+2024-04-05 04:11:30,322 1940 INFO test odoo.models: Prepare computation of res.company.email_primary_color 
+2024-04-05 04:11:30,322 1940 INFO test odoo.models: Prepare computation of res.company.email_secondary_color 
+2024-04-05 04:11:30,354 1940 INFO test odoo.models: Prepare computation of res.users.notification_type 
+2024-04-05 04:11:31,155 1940 INFO test odoo.models: Prepare computation of res.partner.email_normalized 
+2024-04-05 04:11:36,395 1940 INFO test odoo.modules.loading: loading mail/data/mail_groups.xml 
+2024-04-05 04:11:36,548 1940 INFO test odoo.modules.loading: loading mail/wizard/mail_activity_schedule_views.xml 
+2024-04-05 04:11:36,564 1940 INFO test odoo.modules.loading: loading mail/wizard/mail_blacklist_remove_views.xml 
+2024-04-05 04:11:36,580 1940 INFO test odoo.modules.loading: loading mail/wizard/mail_compose_message_views.xml 
+2024-04-05 04:11:36,611 1940 INFO test odoo.modules.loading: loading mail/wizard/mail_resend_message_views.xml 
+2024-04-05 04:11:36,633 1940 INFO test odoo.modules.loading: loading mail/wizard/mail_resend_partner_views.xml 
+2024-04-05 04:11:36,664 1940 INFO test odoo.modules.loading: loading mail/wizard/mail_template_preview_views.xml 
+2024-04-05 04:11:36,680 1940 INFO test odoo.modules.loading: loading mail/wizard/mail_wizard_invite_views.xml 
+2024-04-05 04:11:36,711 1940 INFO test odoo.modules.loading: loading mail/wizard/mail_template_reset_views.xml 
+2024-04-05 04:11:36,733 1940 INFO test odoo.modules.loading: loading mail/views/fetchmail_views.xml 
+2024-04-05 04:11:36,765 1940 INFO test odoo.modules.loading: loading mail/views/mail_message_subtype_views.xml 
+2024-04-05 04:11:36,796 1940 INFO test odoo.modules.loading: loading mail/views/mail_tracking_value_views.xml 
+2024-04-05 04:11:36,833 1940 INFO test odoo.modules.loading: loading mail/views/mail_notification_views.xml 
+2024-04-05 04:11:36,849 1940 INFO test odoo.modules.loading: loading mail/views/mail_message_views.xml 
+2024-04-05 04:11:36,912 1940 INFO test odoo.modules.loading: loading mail/views/mail_message_schedule_views.xml 
+2024-04-05 04:11:36,934 1940 INFO test odoo.modules.loading: loading mail/views/mail_mail_views.xml 
+2024-04-05 04:11:36,981 1940 INFO test odoo.modules.loading: loading mail/views/mail_followers_views.xml 
+2024-04-05 04:11:37,034 1940 INFO test odoo.modules.loading: loading mail/views/mail_ice_server_views.xml 
+2024-04-05 04:11:37,050 1940 INFO test odoo.modules.loading: loading mail/views/discuss_channel_member_views.xml 
+2024-04-05 04:11:37,081 1940 INFO test odoo.modules.loading: loading mail/views/discuss_channel_rtc_session_views.xml 
+2024-04-05 04:11:37,097 1940 INFO test odoo.modules.loading: loading mail/views/mail_link_preview_views.xml 
+2024-04-05 04:11:37,130 1940 INFO test odoo.modules.loading: loading mail/views/discuss/discuss_gif_favorite_views.xml 
+2024-04-05 04:11:37,134 1940 INFO test odoo.modules.loading: loading mail/views/discuss_channel_views.xml 
+2024-04-05 04:11:37,181 1940 INFO test odoo.modules.loading: loading mail/views/mail_shortcode_views.xml 
+2024-04-05 04:11:37,213 1940 INFO test odoo.modules.loading: loading mail/views/mail_activity_views.xml 
+2024-04-05 04:11:37,335 1940 INFO test odoo.modules.loading: loading mail/views/mail_activity_plan_views.xml 
+2024-04-05 04:11:37,382 1940 INFO test odoo.modules.loading: loading mail/views/mail_activity_plan_template_views.xml 
+2024-04-05 04:11:37,397 1940 INFO test odoo.modules.loading: loading mail/views/res_config_settings_views.xml 
+2024-04-05 04:11:37,435 1940 INFO test odoo.modules.loading: loading mail/data/ir_config_parameter_data.xml 
+2024-04-05 04:11:37,451 1940 INFO test odoo.modules.loading: loading mail/data/res_partner_data.xml 
+2024-04-05 04:11:37,613 1940 INFO test odoo.modules.loading: loading mail/data/mail_message_subtype_data.xml 
+2024-04-05 04:11:37,635 1940 INFO test odoo.modules.loading: loading mail/data/mail_templates_chatter.xml 
+2024-04-05 04:11:37,651 1940 INFO test odoo.modules.loading: loading mail/data/mail_templates_email_layouts.xml 
+2024-04-05 04:11:37,682 1940 INFO test odoo.modules.loading: loading mail/data/mail_templates_mailgateway.xml 
+2024-04-05 04:11:37,698 1940 INFO test odoo.modules.loading: loading mail/data/discuss_channel_data.xml 
+2024-04-05 04:11:37,767 1940 INFO test odoo.modules.loading: loading mail/data/mail_activity_data.xml 
+2024-04-05 04:11:37,782 1940 INFO test odoo.modules.loading: loading mail/data/security_notifications_templates.xml 
+2024-04-05 04:11:37,798 1940 INFO test odoo.modules.loading: loading mail/data/ir_cron_data.xml 
+2024-04-05 04:11:37,882 1940 INFO test odoo.modules.loading: loading mail/security/mail_security.xml 
+2024-04-05 04:11:38,082 1940 INFO test odoo.modules.loading: loading mail/security/ir.model.access.csv 
+2024-04-05 04:11:38,214 1940 INFO test odoo.modules.loading: loading mail/views/discuss_public_templates.xml 
+2024-04-05 04:11:38,234 1940 INFO test odoo.modules.loading: loading mail/views/mail_alias_domain_views.xml 
+2024-04-05 04:11:38,268 1940 INFO test odoo.modules.loading: loading mail/views/mail_alias_views.xml 
+2024-04-05 04:11:38,299 1940 INFO test odoo.modules.loading: loading mail/views/mail_gateway_allowed_views.xml 
+2024-04-05 04:11:38,334 1940 INFO test odoo.modules.loading: loading mail/views/mail_guest_views.xml 
+2024-04-05 04:11:38,356 1940 INFO test odoo.modules.loading: loading mail/views/mail_message_reaction_views.xml 
+2024-04-05 04:11:38,378 1940 INFO test odoo.modules.loading: loading mail/views/mail_templates_public.xml 
+2024-04-05 04:11:38,415 1940 INFO test odoo.modules.loading: loading mail/views/res_users_views.xml 
+2024-04-05 04:11:38,452 1940 INFO test odoo.modules.loading: loading mail/views/res_users_settings_views.xml 
+2024-04-05 04:11:38,475 1940 INFO test odoo.modules.loading: loading mail/views/mail_template_views.xml 
+2024-04-05 04:11:38,526 1940 INFO test odoo.modules.loading: loading mail/views/ir_actions_server_views.xml 
+2024-04-05 04:11:38,552 1940 INFO test odoo.modules.loading: loading mail/views/ir_model_views.xml 
+2024-04-05 04:11:38,599 1940 INFO test odoo.modules.loading: loading mail/views/res_partner_views.xml 
+2024-04-05 04:11:38,668 1940 INFO test odoo.modules.loading: loading mail/views/mail_blacklist_views.xml 
+2024-04-05 04:11:38,699 1940 INFO test odoo.modules.loading: loading mail/views/mail_menus.xml 
+2024-04-05 04:11:38,900 1940 INFO test odoo.modules.loading: loading mail/views/res_company_views.xml 
+2024-04-05 04:11:39,016 1940 INFO test odoo.modules.loading: Module mail loaded in 13.55s, 4049 queries (+4050 other) 
+2024-04-05 04:11:39,016 1940 INFO test odoo.modules.loading: Loading module auth_signup (17/35) 
+2024-04-05 04:11:39,239 1940 INFO test odoo.modules.registry: module auth_signup: creating or updating database tables 
+2024-04-05 04:11:39,486 1940 INFO test odoo.modules.loading: loading auth_signup/data/ir_config_parameter_data.xml 
+2024-04-05 04:11:39,502 1940 INFO test odoo.modules.loading: loading auth_signup/data/ir_cron_data.xml 
+2024-04-05 04:11:39,517 1940 INFO test odoo.modules.loading: loading auth_signup/data/mail_template_data.xml 
+2024-04-05 04:11:39,586 1940 INFO test odoo.modules.loading: loading auth_signup/views/res_config_settings_views.xml 
+2024-04-05 04:11:39,617 1940 INFO test odoo.modules.loading: loading auth_signup/views/res_users_views.xml 
+2024-04-05 04:11:39,655 1940 INFO test odoo.modules.loading: loading auth_signup/views/auth_signup_login_templates.xml 
+2024-04-05 04:11:39,702 1940 INFO test odoo.modules.loading: loading auth_signup/views/auth_signup_templates_email.xml 
+2024-04-05 04:11:39,755 1940 INFO test odoo.modules.loading: loading auth_signup/views/webclient_templates.xml 
+2024-04-05 04:11:39,887 1940 INFO test odoo.modules.loading: Module auth_signup loaded in 0.87s, 197 queries (+197 other) 
+2024-04-05 04:11:39,887 1940 INFO test odoo.modules.loading: Loading module auth_totp_mail (18/35) 
+2024-04-05 04:11:39,972 1940 INFO test odoo.modules.registry: module auth_totp_mail: creating or updating database tables 
+2024-04-05 04:11:40,040 1940 INFO test odoo.modules.loading: loading auth_totp_mail/data/ir_action_data.xml 
+2024-04-05 04:11:40,087 1940 INFO test odoo.modules.loading: loading auth_totp_mail/data/mail_template_data.xml 
+2024-04-05 04:11:40,103 1940 INFO test odoo.modules.loading: loading auth_totp_mail/data/security_notifications_template.xml 
+2024-04-05 04:11:40,118 1940 INFO test odoo.modules.loading: loading auth_totp_mail/views/res_users_views.xml 
+2024-04-05 04:11:40,172 1940 INFO test odoo.modules.loading: Module auth_totp_mail loaded in 0.28s, 108 queries (+108 other) 
+2024-04-05 04:11:40,172 1940 INFO test odoo.modules.loading: Loading module base_install_request (19/35) 
+2024-04-05 04:11:40,256 1940 INFO test odoo.modules.registry: module base_install_request: creating or updating database tables 
+2024-04-05 04:11:40,488 1940 INFO test odoo.modules.loading: loading base_install_request/security/ir.model.access.csv 
+2024-04-05 04:11:40,519 1940 INFO test odoo.modules.loading: loading base_install_request/wizard/base_module_install_request_views.xml 
+2024-04-05 04:11:40,541 1940 INFO test odoo.modules.loading: loading base_install_request/data/mail_template_data.xml 
+2024-04-05 04:11:40,557 1940 INFO test odoo.modules.loading: loading base_install_request/data/mail_templates_module_install.xml 
+2024-04-05 04:11:40,572 1940 INFO test odoo.modules.loading: loading base_install_request/views/ir_module_module_views.xml 
+2024-04-05 04:11:40,603 1940 INFO test odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Project', 'Email Marketing', 'Employees', 'Surveys'] to user __system__ #1 via 127.0.0.1 
+2024-04-05 04:11:40,742 1940 INFO test odoo.modules.loading: Module base_install_request loaded in 0.57s, 193 queries (+193 other) 
+2024-04-05 04:11:40,742 1940 INFO test odoo.modules.loading: Loading module google_gmail (20/35) 
+2024-04-05 04:11:40,842 1940 INFO test odoo.modules.registry: module google_gmail: creating or updating database tables 
+2024-04-05 04:11:40,942 1940 INFO test odoo.modules.loading: loading google_gmail/views/fetchmail_server_views.xml 
+2024-04-05 04:11:40,989 1940 INFO test odoo.modules.loading: loading google_gmail/views/ir_mail_server_views.xml 
+2024-04-05 04:11:41,005 1940 INFO test odoo.modules.loading: loading google_gmail/views/res_config_settings_views.xml 
+2024-04-05 04:11:41,042 1940 INFO test odoo.modules.loading: Module google_gmail loaded in 0.30s, 118 queries (+118 other) 
+2024-04-05 04:11:41,042 1940 INFO test odoo.modules.loading: Loading module iap_mail (21/35) 
+2024-04-05 04:11:41,143 1940 INFO test odoo.modules.registry: module iap_mail: creating or updating database tables 
+2024-04-05 04:11:41,174 1940 INFO test odoo.modules.loading: loading iap_mail/data/mail_templates.xml 
+2024-04-05 04:11:41,242 1940 INFO test odoo.modules.loading: Module iap_mail loaded in 0.20s, 36 queries (+36 other) 
+2024-04-05 04:11:41,242 1940 INFO test odoo.modules.loading: Loading module mail_bot (22/35) 
+2024-04-05 04:11:41,343 1940 INFO test odoo.modules.registry: module mail_bot: creating or updating database tables 
+2024-04-05 04:11:41,474 1940 INFO test odoo.modules.loading: loading mail_bot/views/res_users_views.xml 
+2024-04-05 04:11:41,543 1940 INFO test odoo.modules.loading: loading mail_bot/data/mailbot_data.xml 
+2024-04-05 04:11:41,575 1940 INFO test odoo.modules.loading: Module mail_bot loaded in 0.33s, 142 queries (+142 other) 
+2024-04-05 04:11:41,575 1940 INFO test odoo.modules.loading: Loading module phone_validation (23/35) 
+2024-04-05 04:11:41,759 1940 INFO test odoo.modules.registry: module phone_validation: creating or updating database tables 
+2024-04-05 04:11:43,294 1940 INFO test odoo.modules.loading: loading phone_validation/security/ir.model.access.csv 
+2024-04-05 04:11:43,309 1940 INFO test odoo.modules.loading: loading phone_validation/views/phone_blacklist_views.xml 
+2024-04-05 04:11:43,347 1940 INFO test odoo.modules.loading: loading phone_validation/wizard/phone_blacklist_remove_view.xml 
+2024-04-05 04:11:43,394 1940 INFO test odoo.modules.loading: Module phone_validation loaded in 1.82s, 1267 queries (+1267 other) 
+2024-04-05 04:11:43,394 1940 INFO test odoo.modules.loading: Loading module privacy_lookup (24/35) 
+2024-04-05 04:11:43,494 1940 INFO test odoo.modules.registry: module privacy_lookup: creating or updating database tables 
+2024-04-05 04:11:43,863 1940 INFO test odoo.modules.loading: loading privacy_lookup/wizard/privacy_lookup_wizard_views.xml 
+2024-04-05 04:11:43,926 1940 INFO test odoo.modules.loading: loading privacy_lookup/views/privacy_log_views.xml 
+2024-04-05 04:11:43,948 1940 INFO test odoo.modules.loading: loading privacy_lookup/security/ir.model.access.csv 
+2024-04-05 04:11:43,979 1940 INFO test odoo.modules.loading: loading privacy_lookup/data/ir_actions_server_data.xml 
+2024-04-05 04:11:44,026 1940 INFO test odoo.modules.loading: Module privacy_lookup loaded in 0.63s, 231 queries (+231 other) 
+2024-04-05 04:11:44,026 1940 INFO test odoo.modules.loading: Loading module product (25/35) 
+2024-04-05 04:11:45,229 1940 INFO test odoo.modules.registry: module product: creating or updating database tables 
+2024-04-05 04:11:49,089 1940 INFO test odoo.modules.loading: loading product/data/product_data.xml 
+2024-04-05 04:11:49,136 1940 INFO test odoo.modules.loading: loading product/security/product_security.xml 
+2024-04-05 04:11:49,321 1940 INFO test odoo.modules.loading: loading product/security/ir.model.access.csv 
+2024-04-05 04:11:49,390 1940 INFO test odoo.modules.loading: loading product/wizard/product_label_layout_views.xml 
+2024-04-05 04:11:49,405 1940 INFO test odoo.modules.loading: loading product/views/product_tag_views.xml 
+2024-04-05 04:11:49,437 1940 INFO test odoo.modules.loading: loading product/views/product_views.xml 
+2024-04-05 04:11:49,606 1940 INFO test odoo.modules.loading: loading product/views/res_config_settings_views.xml 
+2024-04-05 04:11:49,637 1940 INFO test odoo.modules.loading: loading product/views/product_attribute_views.xml 
+2024-04-05 04:11:49,706 1940 INFO test odoo.modules.loading: loading product/views/product_attribute_value_views.xml 
+2024-04-05 04:11:49,722 1940 INFO test odoo.modules.loading: loading product/views/product_category_views.xml 
+2024-04-05 04:11:49,775 1940 INFO test odoo.modules.loading: loading product/views/product_document_views.xml 
+2024-04-05 04:11:49,837 1940 INFO test odoo.modules.loading: loading product/views/product_packaging_views.xml 
+2024-04-05 04:11:49,875 1940 INFO test odoo.modules.loading: loading product/views/product_pricelist_item_views.xml 
+2024-04-05 04:11:49,906 1940 INFO test odoo.modules.loading: loading product/views/product_pricelist_views.xml 
+2024-04-05 04:11:49,960 1940 INFO test odoo.modules.loading: loading product/views/product_supplierinfo_views.xml 
+2024-04-05 04:11:49,991 1940 INFO test odoo.modules.loading: loading product/views/product_template_views.xml 
+2024-04-05 04:11:50,058 1940 INFO test odoo.modules.loading: loading product/views/res_country_group_views.xml 
+2024-04-05 04:11:50,060 1940 INFO test odoo.modules.loading: loading product/views/res_partner_views.xml 
+2024-04-05 04:11:50,076 1940 INFO test odoo.modules.loading: loading product/report/product_reports.xml 
+2024-04-05 04:11:50,123 1940 INFO test odoo.modules.loading: loading product/report/product_product_templates.xml 
+2024-04-05 04:11:50,176 1940 INFO test odoo.modules.loading: loading product/report/product_template_templates.xml 
+2024-04-05 04:11:50,207 1940 INFO test odoo.modules.loading: loading product/report/product_packaging.xml 
+2024-04-05 04:11:50,256 1940 INFO test odoo.modules.loading: loading product/report/product_pricelist_report_templates.xml 
+2024-04-05 04:11:50,307 1940 INFO test odoo.modules.loading: Module product loaded in 6.28s, 1467 queries (+1467 other) 
+2024-04-05 04:11:50,307 1940 INFO test odoo.modules.loading: Loading module partner_autocomplete (27/35) 
+2024-04-05 04:11:50,792 1940 INFO test odoo.modules.registry: module partner_autocomplete: creating or updating database tables 
+2024-04-05 04:11:51,023 1940 INFO test odoo.modules.loading: loading partner_autocomplete/security/ir.model.access.csv 
+2024-04-05 04:11:51,023 1940 INFO test odoo.modules.loading: loading partner_autocomplete/views/res_partner_views.xml 
+2024-04-05 04:11:51,076 1940 INFO test odoo.modules.loading: loading partner_autocomplete/views/res_company_views.xml 
+2024-04-05 04:11:51,092 1940 INFO test odoo.modules.loading: loading partner_autocomplete/views/res_config_settings_views.xml 
+2024-04-05 04:11:51,123 1940 INFO test odoo.modules.loading: loading partner_autocomplete/data/cron.xml 
+2024-04-05 04:11:51,161 1940 INFO test odoo.modules.loading: Module partner_autocomplete loaded in 0.85s, 182 queries (+182 other) 
+2024-04-05 04:11:51,161 1940 INFO test odoo.modules.loading: Loading module portal (28/35) 
+2024-04-05 04:11:51,440 1940 INFO test odoo.modules.registry: module portal: creating or updating database tables 
+2024-04-05 04:11:52,179 1940 INFO test odoo.modules.loading: loading portal/security/ir.model.access.csv 
+2024-04-05 04:11:52,195 1940 INFO test odoo.modules.loading: loading portal/data/mail_template_data.xml 
+2024-04-05 04:11:52,210 1940 INFO test odoo.modules.loading: loading portal/data/mail_templates.xml 
+2024-04-05 04:11:52,210 1940 INFO test odoo.modules.loading: loading portal/views/mail_templates_public.xml 
+2024-04-05 04:11:52,226 1940 INFO test odoo.modules.loading: loading portal/views/portal_templates.xml 
+2024-04-05 04:11:52,395 1940 INFO test odoo.modules.loading: loading portal/views/res_config_settings_views.xml 
+2024-04-05 04:11:52,426 1940 INFO test odoo.modules.loading: loading portal/wizard/portal_share_views.xml 
+2024-04-05 04:11:52,442 1940 INFO test odoo.modules.loading: loading portal/wizard/portal_wizard_views.xml 
+2024-04-05 04:11:52,495 1940 INFO test odoo.modules.loading: Module portal loaded in 1.33s, 464 queries (+464 other) 
+2024-04-05 04:11:52,495 1940 INFO test odoo.modules.loading: Loading module sms (29/35) 
+2024-04-05 04:11:52,664 1940 INFO test odoo.modules.registry: module sms: creating or updating database tables 
+2024-04-05 04:11:52,680 1940 INFO test odoo.models: Prepare computation of ir.actions.server.sms_template_id 
+2024-04-05 04:11:52,680 1940 INFO test odoo.models: Prepare computation of ir.actions.server.sms_method 
+2024-04-05 04:11:52,727 1940 INFO test odoo.models: Prepare computation of res.partner.phone_sanitized 
+2024-04-05 04:11:53,844 1940 INFO test odoo.modules.loading: loading sms/data/ir_cron_data.xml 
+2024-04-05 04:11:53,865 1940 INFO test odoo.modules.loading: loading sms/wizard/sms_composer_views.xml 
+2024-04-05 04:11:53,881 1940 INFO test odoo.modules.loading: loading sms/wizard/sms_template_preview_views.xml 
+2024-04-05 04:11:53,897 1940 INFO test odoo.modules.loading: loading sms/wizard/sms_resend_views.xml 
+2024-04-05 04:11:53,913 1940 INFO test odoo.modules.loading: loading sms/wizard/sms_template_reset_views.xml 
+2024-04-05 04:11:53,928 1940 INFO test odoo.modules.loading: loading sms/views/ir_actions_server_views.xml 
+2024-04-05 04:11:53,944 1940 INFO test odoo.modules.loading: loading sms/views/mail_notification_views.xml 
+2024-04-05 04:11:53,966 1940 INFO test odoo.modules.loading: loading sms/views/res_config_settings_views.xml 
+2024-04-05 04:11:53,982 1940 INFO test odoo.modules.loading: loading sms/views/res_partner_views.xml 
+2024-04-05 04:11:54,029 1940 INFO test odoo.modules.loading: loading sms/views/sms_sms_views.xml 
+2024-04-05 04:11:54,082 1940 INFO test odoo.modules.loading: loading sms/views/sms_template_views.xml 
+2024-04-05 04:11:54,113 1940 INFO test odoo.modules.loading: loading sms/security/ir.model.access.csv 
+2024-04-05 04:11:54,145 1940 INFO test odoo.modules.loading: loading sms/security/sms_security.xml 
+2024-04-05 04:11:54,182 1940 INFO test odoo.modules.loading: Module sms loaded in 1.69s, 641 queries (+641 other) 
+2024-04-05 04:11:54,182 1940 INFO test odoo.modules.loading: Loading module snailmail (30/35) 
+2024-04-05 04:11:54,329 1940 INFO test odoo.modules.registry: module snailmail: creating or updating database tables 
+2024-04-05 04:11:55,014 1940 INFO test odoo.modules.loading: loading snailmail/data/snailmail_data.xml 
+2024-04-05 04:11:55,046 1940 INFO test odoo.modules.loading: loading snailmail/views/report_assets.xml 
+2024-04-05 04:11:55,067 1940 INFO test odoo.modules.loading: loading snailmail/views/snailmail_views.xml 
+2024-04-05 04:11:55,099 1940 INFO test odoo.modules.loading: loading snailmail/wizard/snailmail_letter_format_error_views.xml 
+2024-04-05 04:11:55,114 1940 INFO test odoo.modules.loading: loading snailmail/wizard/snailmail_letter_missing_required_fields_views.xml 
+2024-04-05 04:11:55,130 1940 INFO test odoo.modules.loading: loading snailmail/security/ir.model.access.csv 
+2024-04-05 04:11:55,167 1940 INFO test odoo.modules.loading: Module snailmail loaded in 0.98s, 401 queries (+401 other) 
+2024-04-05 04:11:55,167 1940 INFO test odoo.modules.loading: Loading module auth_totp_portal (31/35) 
+2024-04-05 04:11:55,283 1940 INFO test odoo.modules.registry: module auth_totp_portal: creating or updating database tables 
+2024-04-05 04:11:55,346 1940 INFO test odoo.modules.loading: loading auth_totp_portal/security/security.xml 
+2024-04-05 04:11:55,515 1940 INFO test odoo.modules.loading: loading auth_totp_portal/views/templates.xml 
+2024-04-05 04:11:55,584 1940 INFO test odoo.modules.loading: Module auth_totp_portal loaded in 0.42s, 71 queries (+71 other) 
+2024-04-05 04:11:55,584 1940 INFO test odoo.modules.loading: Loading module digest (32/35) 
+2024-04-05 04:11:55,715 1940 INFO test odoo.modules.registry: module digest: creating or updating database tables 
+2024-04-05 04:11:56,170 1940 INFO test odoo.modules.loading: loading digest/security/ir.model.access.csv 
+2024-04-05 04:11:56,201 1940 INFO test odoo.modules.loading: loading digest/data/digest_data.xml 
+2024-04-05 04:11:56,232 1940 INFO test odoo.modules.loading: loading digest/data/digest_tips_data.xml 
+2024-04-05 04:11:56,270 1940 INFO test odoo.modules.loading: loading digest/data/ir_cron_data.xml 
+2024-04-05 04:11:56,286 1940 INFO test odoo.modules.loading: loading digest/data/res_config_settings_data.xml 
+2024-04-05 04:11:56,286 1940 INFO test odoo.modules.loading: loading digest/views/digest_views.xml 
+2024-04-05 04:11:56,369 1940 INFO test odoo.modules.loading: loading digest/views/digest_templates.xml 
+2024-04-05 04:11:56,370 1940 INFO test odoo.modules.loading: loading digest/views/res_config_settings_views.xml 
+2024-04-05 04:11:56,448 1940 INFO test odoo.modules.loading: Module digest loaded in 0.86s, 286 queries (+286 other) 
+2024-04-05 04:11:56,448 1940 INFO test odoo.modules.loading: Loading module stock (33/35) 
+2024-04-05 04:11:56,702 1940 INFO test odoo.modules.registry: module stock: creating or updating database tables 
+2024-04-05 04:12:07,930 1940 INFO test odoo.modules.loading: loading stock/security/stock_security.xml 
+2024-04-05 04:12:08,584 1940 INFO test odoo.modules.loading: loading stock/security/ir.model.access.csv 
+2024-04-05 04:12:08,731 1940 INFO test odoo.modules.loading: loading stock/data/digest_data.xml 
+2024-04-05 04:12:08,763 1940 INFO test odoo.modules.loading: loading stock/data/mail_templates.xml 
+2024-04-05 04:12:08,785 1940 INFO test odoo.modules.loading: loading stock/data/default_barcode_patterns.xml 
+2024-04-05 04:12:08,816 1940 INFO test odoo.modules.loading: loading stock/data/stock_data.xml 
+2024-04-05 04:12:09,233 1940 INFO test odoo.modules.loading: loading stock/data/stock_sequence_data.xml 
+2024-04-05 04:12:09,264 1940 INFO test odoo.modules.loading: loading stock/data/stock_traceability_report_data.xml 
+2024-04-05 04:12:09,286 1940 INFO test odoo.modules.loading: loading stock/report/report_stock_quantity.xml 
+2024-04-05 04:12:09,433 1940 INFO test odoo.modules.loading: loading stock/report/report_stock_reception.xml 
+2024-04-05 04:12:09,486 1940 INFO test odoo.modules.loading: loading stock/report/stock_report_views.xml 
+2024-04-05 04:12:09,565 1940 INFO test odoo.modules.loading: loading stock/report/report_package_barcode.xml 
+2024-04-05 04:12:09,587 1940 INFO test odoo.modules.loading: loading stock/report/report_lot_barcode.xml 
+2024-04-05 04:12:09,602 1940 INFO test odoo.modules.loading: loading stock/report/report_location_barcode.xml 
+2024-04-05 04:12:09,618 1940 INFO test odoo.modules.loading: loading stock/report/report_stockpicking_operations.xml 
+2024-04-05 04:12:09,634 1940 INFO test odoo.modules.loading: loading stock/report/report_deliveryslip.xml 
+2024-04-05 04:12:09,687 1940 INFO test odoo.modules.loading: loading stock/report/report_stockinventory.xml 
+2024-04-05 04:12:09,687 1940 INFO test odoo.modules.loading: loading stock/report/report_stock_rule.xml 
+2024-04-05 04:12:09,750 1940 INFO test odoo.modules.loading: loading stock/report/package_templates.xml 
+2024-04-05 04:12:09,787 1940 INFO test odoo.modules.loading: loading stock/report/picking_templates.xml 
+2024-04-05 04:12:09,803 1940 INFO test odoo.modules.loading: loading stock/report/product_templates.xml 
+2024-04-05 04:12:09,819 1940 INFO test odoo.modules.loading: loading stock/report/product_packaging.xml 
+2024-04-05 04:12:09,834 1940 INFO test odoo.modules.loading: loading stock/report/report_return_slip.xml 
+2024-04-05 04:12:09,850 1940 INFO test odoo.modules.loading: loading stock/data/mail_template_data.xml 
+2024-04-05 04:12:09,865 1940 INFO test odoo.modules.loading: loading stock/views/stock_menu_views.xml 
+2024-04-05 04:12:10,003 1940 INFO test odoo.modules.loading: loading stock/wizard/stock_assign_serial_views.xml 
+2024-04-05 04:12:10,019 1940 INFO test odoo.modules.loading: loading stock/wizard/stock_change_product_qty_views.xml 
+2024-04-05 04:12:10,035 1940 INFO test odoo.modules.loading: loading stock/wizard/stock_picking_return_views.xml 
+2024-04-05 04:12:10,050 1940 INFO test odoo.modules.loading: loading stock/wizard/stock_scheduler_compute_views.xml 
+2024-04-05 04:12:10,066 1940 INFO test odoo.modules.loading: loading stock/wizard/stock_inventory_conflict.xml 
+2024-04-05 04:12:10,088 1940 INFO test odoo.modules.loading: loading stock/wizard/stock_backorder_confirmation_views.xml 
+2024-04-05 04:12:10,104 1940 INFO test odoo.modules.loading: loading stock/wizard/stock_quantity_history.xml 
+2024-04-05 04:12:10,104 1940 INFO test odoo.modules.loading: loading stock/wizard/stock_request_count.xml 
+2024-04-05 04:12:10,135 1940 INFO test odoo.modules.loading: loading stock/wizard/stock_replenishment_info.xml 
+2024-04-05 04:12:10,150 1940 INFO test odoo.modules.loading: loading stock/wizard/stock_rules_report_views.xml 
+2024-04-05 04:12:10,166 1940 INFO test odoo.modules.loading: loading stock/wizard/stock_warn_insufficient_qty_views.xml 
+2024-04-05 04:12:10,188 1940 INFO test odoo.modules.loading: loading stock/wizard/product_replenish_views.xml 
+2024-04-05 04:12:10,204 1940 INFO test odoo.modules.loading: loading stock/wizard/product_label_layout_views.xml 
+2024-04-05 04:12:10,220 1940 INFO test odoo.modules.loading: loading stock/wizard/stock_track_confirmation_views.xml 
+2024-04-05 04:12:10,235 1940 INFO test odoo.modules.loading: loading stock/wizard/stock_orderpoint_snooze_views.xml 
+2024-04-05 04:12:10,235 1940 INFO test odoo.modules.loading: loading stock/wizard/stock_package_destination_views.xml 
+2024-04-05 04:12:10,251 1940 INFO test odoo.modules.loading: loading stock/wizard/stock_inventory_adjustment_name.xml 
+2024-04-05 04:12:10,266 1940 INFO test odoo.modules.loading: loading stock/wizard/stock_inventory_warning.xml 
+2024-04-05 04:12:10,287 1940 INFO test odoo.modules.loading: loading stock/wizard/stock_label_type.xml 
+2024-04-05 04:12:10,288 1940 INFO test odoo.modules.loading: loading stock/wizard/stock_lot_label_layout.xml 
+2024-04-05 04:12:10,304 1940 INFO test odoo.modules.loading: loading stock/wizard/stock_quant_relocate.xml 
+2024-04-05 04:12:10,304 1940 INFO test odoo.modules.loading: loading stock/views/res_partner_views.xml 
+2024-04-05 04:12:10,351 1940 INFO test odoo.modules.loading: loading stock/views/product_strategy_views.xml 
+2024-04-05 04:12:10,420 1940 INFO test odoo.modules.loading: loading stock/views/stock_lot_views.xml 
+2024-04-05 04:12:10,505 1940 INFO test odoo.modules.loading: loading stock/views/stock_scrap_views.xml 
+2024-04-05 04:12:10,605 1940 INFO test odoo.modules.loading: loading stock/views/stock_quant_views.xml 
+2024-04-05 04:12:11,052 1940 INFO test odoo.modules.loading: loading stock/views/stock_warehouse_views.xml 
+2024-04-05 04:12:11,090 1940 INFO test odoo.modules.loading: loading stock/views/stock_move_line_views.xml 
+2024-04-05 04:12:11,187 1940 INFO test odoo.modules.loading: loading stock/views/stock_picking_views.xml 
+2024-04-05 04:12:11,390 1940 INFO test odoo.modules.loading: loading stock/views/stock_picking_type_views.xml 
+2024-04-05 04:12:11,453 1940 INFO test odoo.modules.loading: loading stock/views/stock_move_views.xml 
+2024-04-05 04:12:11,606 1940 INFO test odoo.modules.loading: loading stock/views/product_views.xml 
+2024-04-05 04:12:11,853 1940 INFO test odoo.modules.loading: loading stock/views/stock_location_views.xml 
+2024-04-05 04:12:11,954 1940 INFO test odoo.modules.loading: loading stock/views/stock_orderpoint_views.xml 
+2024-04-05 04:12:12,038 1940 INFO test odoo.modules.loading: loading stock/views/stock_storage_category_views.xml 
+2024-04-05 04:12:12,091 1940 INFO test odoo.modules.loading: loading stock/views/res_config_settings_views.xml 
+2024-04-05 04:12:12,138 1940 INFO test odoo.modules.loading: loading stock/views/report_stock_traceability.xml 
+2024-04-05 04:12:12,169 1940 INFO test odoo.modules.loading: loading stock/views/stock_template.xml 
+2024-04-05 04:12:12,192 1940 INFO test odoo.modules.loading: loading stock/views/stock_rule_views.xml 
+2024-04-05 04:12:12,239 1940 INFO test odoo.modules.loading: loading stock/views/stock_package_level_views.xml 
+2024-04-05 04:12:12,270 1940 INFO test odoo.modules.loading: loading stock/views/stock_package_type_view.xml 
+2024-04-05 04:12:12,308 1940 INFO test odoo.modules.loading: loading stock/views/stock_forecasted.xml 
+2024-04-05 04:12:12,439 1940 INFO test odoo.modules.loading: Module stock loaded in 15.99s, 5055 queries (+5055 other) 
+2024-04-05 04:12:12,439 1940 INFO test odoo.modules.loading: Loading module mrp (34/35) 
+2024-04-05 04:12:13,125 1940 INFO test odoo.modules.registry: module mrp: creating or updating database tables 
+2024-04-05 04:12:18,463 1940 INFO test odoo.modules.loading: loading mrp/security/mrp_security.xml 
+2024-04-05 04:12:18,880 1940 INFO test odoo.modules.loading: loading mrp/security/ir.model.access.csv 
+2024-04-05 04:12:19,002 1940 INFO test odoo.modules.loading: loading mrp/data/digest_data.xml 
+2024-04-05 04:12:19,033 1940 INFO test odoo.modules.loading: loading mrp/data/mail_templates.xml 
+2024-04-05 04:12:19,065 1940 INFO test odoo.modules.loading: loading mrp/data/mrp_data.xml 
+2024-04-05 04:12:19,535 1940 INFO test odoo.modules.loading: loading mrp/wizard/change_production_qty_views.xml 
+2024-04-05 04:12:19,566 1940 INFO test odoo.modules.loading: loading mrp/wizard/mrp_workcenter_block_view.xml 
+2024-04-05 04:12:19,604 1940 INFO test odoo.modules.loading: loading mrp/wizard/stock_warn_insufficient_qty_views.xml 
+2024-04-05 04:12:19,619 1940 INFO test odoo.modules.loading: loading mrp/wizard/mrp_production_backorder.xml 
+2024-04-05 04:12:19,651 1940 INFO test odoo.modules.loading: loading mrp/wizard/mrp_consumption_warning_views.xml 
+2024-04-05 04:12:19,666 1940 INFO test odoo.modules.loading: loading mrp/wizard/stock_assign_serial_numbers.xml 
+2024-04-05 04:12:19,682 1940 INFO test odoo.modules.loading: loading mrp/wizard/mrp_production_split.xml 
+2024-04-05 04:12:19,720 1940 INFO test odoo.modules.loading: loading mrp/views/mrp_views_menus.xml 
+2024-04-05 04:12:19,804 1940 INFO test odoo.modules.loading: loading mrp/views/stock_move_views.xml 
+2024-04-05 04:12:19,899 1940 INFO test odoo.modules.loading: loading mrp/views/mrp_workorder_views.xml 
+2024-04-05 04:12:20,154 1940 INFO test odoo.modules.loading: loading mrp/views/mrp_workcenter_views.xml 
+2024-04-05 04:12:20,370 1940 INFO test odoo.modules.loading: loading mrp/views/mrp_bom_views.xml 
+2024-04-05 04:12:20,502 1940 INFO test odoo.modules.loading: loading mrp/views/mrp_production_views.xml 
+2024-04-05 04:12:20,702 1940 INFO test odoo.modules.loading: loading mrp/views/mrp_routing_views.xml 
+2024-04-05 04:12:20,818 1940 INFO test odoo.modules.loading: loading mrp/views/product_views.xml 
+2024-04-05 04:12:20,918 1940 INFO test odoo.modules.loading: loading mrp/views/stock_orderpoint_views.xml 
+2024-04-05 04:12:20,987 1940 INFO test odoo.modules.loading: loading mrp/views/stock_warehouse_views.xml 
+2024-04-05 04:12:21,002 1940 INFO test odoo.modules.loading: loading mrp/views/stock_picking_views.xml 
+2024-04-05 04:12:21,087 1940 INFO test odoo.modules.loading: loading mrp/views/mrp_unbuild_views.xml 
+2024-04-05 04:12:21,171 1940 INFO test odoo.modules.loading: loading mrp/views/ir_attachment_view.xml 
+2024-04-05 04:12:21,218 1940 INFO test odoo.modules.loading: loading mrp/views/res_config_settings_views.xml 
+2024-04-05 04:12:21,256 1940 INFO test odoo.modules.loading: loading mrp/views/stock_scrap_views.xml 
+2024-04-05 04:12:21,287 1940 INFO test odoo.modules.loading: loading mrp/report/report_deliveryslip.xml 
+2024-04-05 04:12:21,334 1940 INFO test odoo.modules.loading: loading mrp/report/mrp_report_views_main.xml 
+2024-04-05 04:12:21,372 1940 INFO test odoo.modules.loading: loading mrp/report/mrp_report_bom_structure.xml 
+2024-04-05 04:12:21,403 1940 INFO test odoo.modules.loading: loading mrp/report/mrp_report_mo_overview.xml 
+2024-04-05 04:12:21,434 1940 INFO test odoo.modules.loading: loading mrp/report/mrp_production_templates.xml 
+2024-04-05 04:12:21,472 1940 INFO test odoo.modules.loading: loading mrp/report/report_stock_reception.xml 
+2024-04-05 04:12:21,472 1940 INFO test odoo.modules.loading: loading mrp/report/report_stock_rule.xml 
+2024-04-05 04:12:21,488 1940 INFO test odoo.modules.loading: loading mrp/report/mrp_zebra_production_templates.xml 
+2024-04-05 04:12:21,504 1940 INFO test odoo.modules.loading: loading mrp/report/mrp_workorder_templates.xml 
+2024-04-05 04:12:21,635 1940 INFO test odoo.modules.loading: Module mrp loaded in 9.20s, 3071 queries (+3071 other) 
+2024-04-05 04:12:21,635 1940 INFO test odoo.modules.loading: Loading module stock_sms (35/35) 
+2024-04-05 04:12:21,957 1940 INFO test odoo.modules.registry: module stock_sms: creating or updating database tables 
+2024-04-05 04:12:22,320 1940 INFO test odoo.modules.loading: loading stock_sms/data/sms_data.xml 
+2024-04-05 04:12:22,374 1940 INFO test odoo.modules.loading: loading stock_sms/views/res_config_settings_views.xml 
+2024-04-05 04:12:22,458 1940 INFO test odoo.modules.loading: loading stock_sms/wizard/confirm_stock_sms_views.xml 
+2024-04-05 04:12:22,489 1940 INFO test odoo.modules.loading: loading stock_sms/security/ir.model.access.csv 
+2024-04-05 04:12:22,505 1940 INFO test odoo.modules.loading: loading stock_sms/security/sms_security.xml 
+2024-04-05 04:12:22,558 1940 INFO test odoo.modules.loading: Module stock_sms loaded in 0.92s, 176 queries (+176 other) 
+2024-04-05 04:12:22,558 1940 INFO test odoo.modules.loading: 35 modules loaded in 60.05s, 19197 queries (+19198 extra) 
+2024-04-05 04:12:22,558 1940 INFO test odoo.modules.loading: loading 56 modules... 
+2024-04-05 04:12:22,558 1940 INFO test odoo.modules.loading: Loading module social_media (2/56) 
+2024-04-05 04:12:22,721 1940 INFO test odoo.modules.registry: module social_media: creating or updating database tables 
+2024-04-05 04:12:22,821 1940 INFO test odoo.modules.loading: loading social_media/views/res_company_views.xml 
+2024-04-05 04:12:22,875 1940 INFO test odoo.modules.loading: Module social_media loaded in 0.32s, 61 queries (+61 other) 
+2024-04-05 04:12:22,875 1940 INFO test odoo.modules.loading: Loading module utm (13/56) 
+2024-04-05 04:12:23,091 1940 INFO test odoo.modules.registry: module utm: creating or updating database tables 
+2024-04-05 04:12:24,461 1940 INFO test odoo.modules.loading: loading utm/data/utm_medium_data.xml 
+2024-04-05 04:12:24,539 1940 INFO test odoo.modules.loading: loading utm/data/utm_source_data.xml 
+2024-04-05 04:12:24,608 1940 INFO test odoo.modules.loading: loading utm/data/utm_stage_data.xml 
+2024-04-05 04:12:24,608 1940 INFO test odoo.modules.loading: loading utm/data/utm_tag_data.xml 
+2024-04-05 04:12:24,624 1940 INFO test odoo.modules.loading: loading utm/views/utm_campaign_views.xml 
+2024-04-05 04:12:24,708 1940 INFO test odoo.modules.loading: loading utm/views/utm_medium_views.xml 
+2024-04-05 04:12:24,739 1940 INFO test odoo.modules.loading: loading utm/views/utm_source_views.xml 
+2024-04-05 04:12:24,777 1940 INFO test odoo.modules.loading: loading utm/views/utm_stage_views.xml 
+2024-04-05 04:12:24,792 1940 INFO test odoo.modules.loading: loading utm/views/utm_tag_views.xml 
+2024-04-05 04:12:24,824 1940 INFO test odoo.modules.loading: loading utm/views/utm_menus.xml 
+2024-04-05 04:12:24,877 1940 INFO test odoo.modules.loading: loading utm/security/ir.model.access.csv 
+2024-04-05 04:12:24,924 1940 INFO test odoo.modules.loading: Module utm loaded in 2.05s, 402 queries (+402 other) 
+2024-04-05 04:12:24,924 1940 INFO test odoo.modules.loading: Loading module web_hierarchy (14/56) 
+2024-04-05 04:12:25,193 1940 INFO test odoo.modules.registry: module web_hierarchy: creating or updating database tables 
+2024-04-05 04:12:27,829 1940 INFO test odoo.modules.loading: Module web_hierarchy loaded in 2.91s, 1998 queries (+1998 other) 
+2024-04-05 04:12:27,829 1940 INFO test odoo.modules.loading: Loading module analytic (20/56) 
+2024-04-05 04:12:28,246 1940 INFO test odoo.modules.registry: module analytic: creating or updating database tables 
+2024-04-05 04:12:29,114 1940 INFO test odoo.modules.loading: loading analytic/security/analytic_security.xml 
+2024-04-05 04:12:29,199 1940 INFO test odoo.modules.loading: loading analytic/security/ir.model.access.csv 
+2024-04-05 04:12:29,230 1940 INFO test odoo.modules.loading: loading analytic/views/analytic_line_views.xml 
+2024-04-05 04:12:29,283 1940 INFO test odoo.modules.loading: loading analytic/views/analytic_account_views.xml 
+2024-04-05 04:12:29,368 1940 INFO test odoo.modules.loading: loading analytic/views/analytic_plan_views.xml 
+2024-04-05 04:12:29,399 1940 INFO test odoo.modules.loading: loading analytic/views/analytic_distribution_model_views.xml 
+2024-04-05 04:12:29,414 1940 INFO test odoo.modules.loading: loading analytic/data/analytic_data.xml 
+2024-04-05 04:12:29,685 1940 INFO test odoo.modules.loading: Module analytic loaded in 1.86s, 392 queries (+392 other) 
+2024-04-05 04:12:29,685 1940 INFO test odoo.modules.loading: Loading module contacts (24/56) 
+2024-04-05 04:12:29,847 1940 INFO test odoo.modules.registry: module contacts: creating or updating database tables 
+2024-04-05 04:12:30,032 1940 INFO test odoo.modules.loading: loading contacts/views/contact_views.xml 
+2024-04-05 04:12:30,201 1940 INFO test odoo.modules.loading: Module contacts loaded in 0.52s, 217 queries (+217 other) 
+2024-04-05 04:12:30,201 1940 INFO test odoo.modules.loading: Loading module gamification (25/56) 
+2024-04-05 04:12:30,486 1940 INFO test odoo.modules.registry: module gamification: creating or updating database tables 
+2024-04-05 04:12:31,472 1940 INFO test odoo.models: Prepare computation of res.users.karma 
+2024-04-05 04:12:32,289 1940 INFO test odoo.modules.loading: loading gamification/wizard/update_goal.xml 
+2024-04-05 04:12:32,305 1940 INFO test odoo.modules.loading: loading gamification/wizard/grant_badge.xml 
+2024-04-05 04:12:32,320 1940 INFO test odoo.modules.loading: loading gamification/views/res_users_views.xml 
+2024-04-05 04:12:32,372 1940 INFO test odoo.modules.loading: loading gamification/views/gamification_karma_rank_views.xml 
+2024-04-05 04:12:32,389 1940 INFO test odoo.modules.loading: loading gamification/views/gamification_karma_tracking_views.xml 
+2024-04-05 04:12:32,420 1940 INFO test odoo.modules.loading: loading gamification/views/gamification_badge_views.xml 
+2024-04-05 04:12:32,474 1940 INFO test odoo.modules.loading: loading gamification/views/gamification_badge_user_views.xml 
+2024-04-05 04:12:32,505 1940 INFO test odoo.modules.loading: loading gamification/views/gamification_goal_views.xml 
+2024-04-05 04:12:32,552 1940 INFO test odoo.modules.loading: loading gamification/views/gamification_goal_definition_views.xml 
+2024-04-05 04:12:32,590 1940 INFO test odoo.modules.loading: loading gamification/views/gamification_challenge_views.xml 
+2024-04-05 04:12:32,668 1940 INFO test odoo.modules.loading: loading gamification/views/gamification_challenge_line_views.xml 
+2024-04-05 04:12:32,674 1940 INFO test odoo.modules.loading: loading gamification/views/gamification_menus.xml 
+2024-04-05 04:12:32,706 1940 INFO test odoo.modules.loading: loading gamification/security/gamification_security.xml 
+2024-04-05 04:12:32,769 1940 INFO test odoo.modules.loading: loading gamification/security/ir.model.access.csv 
+2024-04-05 04:12:32,821 1940 INFO test odoo.modules.loading: loading gamification/data/ir_cron_data.xml 
+2024-04-05 04:12:32,853 1940 INFO test odoo.modules.loading: loading gamification/data/mail_template_data.xml 
+2024-04-05 04:12:32,890 1940 INFO test odoo.modules.loading: loading gamification/data/gamification_badge_data.xml 
+2024-04-05 04:12:33,022 1940 INFO test odoo.modules.loading: loading gamification/data/gamification_challenge_data.xml 
+2024-04-05 04:12:33,107 1940 INFO test odoo.modules.loading: loading gamification/data/gamification_karma_rank_data.xml 
+2024-04-05 04:12:33,607 1940 INFO test odoo.modules.loading: Module gamification loaded in 3.41s, 922 queries (+922 other) 
+2024-04-05 04:12:33,607 1940 INFO test odoo.modules.loading: Loading module link_tracker (28/56) 
+2024-04-05 04:12:33,892 1940 INFO test odoo.modules.registry: module link_tracker: creating or updating database tables 
+2024-04-05 04:12:34,378 1940 INFO test odoo.modules.loading: loading link_tracker/views/link_tracker_views.xml 
+2024-04-05 04:12:34,478 1940 INFO test odoo.modules.loading: loading link_tracker/views/utm_campaign_views.xml 
+2024-04-05 04:12:34,510 1940 INFO test odoo.modules.loading: loading link_tracker/security/ir.model.access.csv 
+2024-04-05 04:12:34,556 1940 INFO test odoo.modules.loading: Module link_tracker loaded in 0.95s, 251 queries (+251 other) 
+2024-04-05 04:12:34,556 1940 INFO test odoo.modules.loading: Loading module rating (33/56) 
+2024-04-05 04:12:34,775 1940 INFO test odoo.modules.registry: module rating: creating or updating database tables 
+2024-04-05 04:12:35,527 1940 INFO test odoo.modules.loading: loading rating/views/rating_rating_views.xml 
+2024-04-05 04:12:35,627 1940 INFO test odoo.modules.loading: loading rating/views/rating_templates.xml 
+2024-04-05 04:12:35,643 1940 INFO test odoo.modules.loading: loading rating/views/mail_message_views.xml 
+2024-04-05 04:12:35,658 1940 INFO test odoo.modules.loading: loading rating/security/ir.model.access.csv 
+2024-04-05 04:12:35,696 1940 INFO test odoo.modules.loading: Module rating loaded in 1.14s, 405 queries (+405 other) 
+2024-04-05 04:12:35,696 1940 INFO test odoo.modules.loading: Loading module hr (35/56) 
+2024-04-05 04:12:36,028 1940 INFO test odoo.modules.registry: module hr: creating or updating database tables 
+2024-04-05 04:12:41,051 1940 INFO test odoo.modules.loading: loading hr/security/hr_security.xml 
+2024-04-05 04:12:41,367 1940 INFO test odoo.modules.loading: loading hr/security/ir.model.access.csv 
+2024-04-05 04:12:41,405 1940 INFO test odoo.modules.loading: loading hr/wizard/hr_departure_wizard_views.xml 
+2024-04-05 04:12:41,436 1940 INFO test odoo.modules.loading: loading hr/wizard/mail_activity_schedule_views.xml 
+2024-04-05 04:12:41,452 1940 INFO test odoo.modules.loading: loading hr/views/mail_activity_plan_views.xml 
+2024-04-05 04:12:41,521 1940 INFO test odoo.modules.loading: loading hr/views/hr_departure_reason_views.xml 
+2024-04-05 04:12:41,552 1940 INFO test odoo.modules.loading: loading hr/views/hr_contract_type_views.xml 
+2024-04-05 04:12:41,567 1940 INFO test odoo.modules.loading: loading hr/views/hr_job_views.xml 
+2024-04-05 04:12:41,605 1940 INFO test odoo.modules.loading: loading hr/views/hr_employee_category_views.xml 
+2024-04-05 04:12:41,636 1940 INFO test odoo.modules.loading: loading hr/views/hr_employee_public_views.xml 
+2024-04-05 04:12:41,668 1940 INFO test odoo.modules.loading: loading hr/report/hr_employee_badge.xml 
+2024-04-05 04:12:41,690 1940 INFO test odoo.modules.loading: loading hr/views/hr_employee_views.xml 
+2024-04-05 04:12:41,790 1940 INFO test odoo.modules.loading: loading hr/views/hr_department_views.xml 
+2024-04-05 04:12:41,837 1940 INFO test odoo.modules.loading: loading hr/views/hr_work_location_views.xml 
+2024-04-05 04:12:41,853 1940 INFO test odoo.modules.loading: loading hr/views/hr_views.xml 
+2024-04-05 04:12:41,991 1940 INFO test odoo.modules.loading: loading hr/views/res_config_settings_views.xml 
+2024-04-05 04:12:42,022 1940 INFO test odoo.modules.loading: loading hr/views/res_partner_views.xml 
+2024-04-05 04:12:42,053 1940 INFO test odoo.modules.loading: loading hr/views/discuss_channel_views.xml 
+2024-04-05 04:12:42,069 1940 INFO test odoo.modules.loading: loading hr/views/res_users.xml 
+2024-04-05 04:12:42,153 1940 INFO test odoo.modules.loading: loading hr/views/hr_templates.xml 
+2024-04-05 04:12:42,169 1940 INFO test odoo.modules.loading: loading hr/data/hr_data.xml 
+2024-04-05 04:12:42,454 1940 INFO test odoo.modules.loading: Module hr loaded in 6.76s, 3519 queries (+3519 other) 
+2024-04-05 04:12:42,454 1940 INFO test odoo.modules.loading: Loading module survey (40/56) 
+2024-04-05 04:12:42,792 1940 INFO test odoo.modules.registry: module survey: creating or updating database tables 
+2024-04-05 04:12:43,492 1940 INFO test odoo.models: Prepare computation of gamification.badge.survey_id 
+2024-04-05 04:12:44,409 1940 INFO test odoo.modules.loading: loading survey/report/survey_templates.xml 
+2024-04-05 04:12:44,455 1940 INFO test odoo.modules.loading: loading survey/report/survey_reports.xml 
+2024-04-05 04:12:44,471 1940 INFO test odoo.modules.loading: loading survey/data/mail_message_subtype_data.xml 
+2024-04-05 04:12:44,471 1940 INFO test odoo.modules.loading: loading survey/data/mail_template_data.xml 
+2024-04-05 04:12:44,493 1940 INFO test odoo.modules.loading: loading survey/security/survey_security.xml 
+2024-04-05 04:12:44,794 1940 INFO test odoo.modules.loading: loading survey/security/ir.model.access.csv 
+2024-04-05 04:12:44,841 1940 INFO test odoo.modules.loading: loading survey/views/survey_menus.xml 
+2024-04-05 04:12:44,872 1940 INFO test odoo.modules.loading: loading survey/views/survey_survey_views.xml 
+2024-04-05 04:12:44,972 1940 INFO test odoo.modules.loading: loading survey/views/survey_user_views.xml 
+2024-04-05 04:12:45,041 1940 INFO test odoo.modules.loading: loading survey/views/survey_question_views.xml 
+2024-04-05 04:12:45,142 1940 INFO test odoo.modules.loading: loading survey/views/survey_templates.xml 
+2024-04-05 04:12:45,258 1940 INFO test odoo.modules.loading: loading survey/views/survey_templates_management.xml 
+2024-04-05 04:12:45,327 1940 INFO test odoo.modules.loading: loading survey/views/survey_templates_print.xml 
+2024-04-05 04:12:45,342 1940 INFO test odoo.modules.loading: loading survey/views/survey_templates_statistics.xml 
+2024-04-05 04:12:45,427 1940 INFO test odoo.modules.loading: loading survey/views/survey_templates_user_input_session.xml 
+2024-04-05 04:12:45,458 1940 INFO test odoo.modules.loading: loading survey/views/gamification_badge_views.xml 
+2024-04-05 04:12:45,474 1940 INFO test odoo.modules.loading: loading survey/wizard/survey_invite_views.xml 
+2024-04-05 04:12:45,474 1940 INFO test odoo.modules.loading: loading survey/views/res_partner_views.xml 
+2024-04-05 04:12:45,543 1940 INFO test odoo.modules.loading: Module survey loaded in 3.09s, 1213 queries (+1213 other) 
+2024-04-05 04:12:45,543 1940 INFO test odoo.modules.loading: Loading module hr_gamification (43/56) 
+2024-04-05 04:12:45,994 1940 INFO test odoo.modules.registry: module hr_gamification: creating or updating database tables 
+2024-04-05 04:12:46,344 1940 INFO test odoo.modules.loading: loading hr_gamification/security/gamification_security.xml 
+2024-04-05 04:12:46,360 1940 INFO test odoo.modules.loading: loading hr_gamification/security/ir.model.access.csv 
+2024-04-05 04:12:46,376 1940 INFO test odoo.modules.loading: loading hr_gamification/wizard/gamification_badge_user_wizard_views.xml 
+2024-04-05 04:12:46,413 1940 INFO test odoo.modules.loading: loading hr_gamification/views/gamification_views.xml 
+2024-04-05 04:12:46,475 1940 INFO test odoo.modules.loading: loading hr_gamification/views/hr_employee_views.xml 
+2024-04-05 04:12:46,529 1940 INFO test odoo.modules.loading: Module hr_gamification loaded in 0.99s, 251 queries (+251 other) 
+2024-04-05 04:12:46,529 1940 INFO test odoo.modules.loading: Loading module hr_org_chart (44/56) 
+2024-04-05 04:12:46,745 1940 INFO test odoo.modules.registry: module hr_org_chart: creating or updating database tables 
+2024-04-05 04:12:46,861 1940 INFO test odoo.modules.loading: loading hr_org_chart/views/hr_department_views.xml 
+2024-04-05 04:12:46,898 1940 INFO test odoo.modules.loading: loading hr_org_chart/views/hr_views.xml 
+2024-04-05 04:12:46,976 1940 INFO test odoo.modules.loading: loading hr_org_chart/views/hr_employee_public_views.xml 
+2024-04-05 04:12:47,014 1940 INFO test odoo.modules.loading: loading hr_org_chart/views/hr_org_chart_menus.xml 
+2024-04-05 04:12:47,061 1940 INFO test odoo.modules.loading: Module hr_org_chart loaded in 0.53s, 158 queries (+158 other) 
+2024-04-05 04:12:47,061 1940 INFO test odoo.modules.loading: Loading module hr_skills (45/56) 
+2024-04-05 04:12:47,315 1940 INFO test odoo.modules.registry: module hr_skills: creating or updating database tables 
+2024-04-05 04:12:47,446 1940 INFO test odoo.models: Prepare computation of hr.employee.skill_ids 
+2024-04-05 04:12:48,464 1940 INFO test odoo.modules.loading: loading hr_skills/security/ir.model.access.csv 
+2024-04-05 04:12:48,479 1940 INFO test odoo.modules.loading: loading hr_skills/security/hr_skills_security.xml 
+2024-04-05 04:12:48,548 1940 INFO test odoo.modules.loading: loading hr_skills/views/hr_views.xml 
+2024-04-05 04:12:48,717 1940 INFO test odoo.modules.loading: loading hr_skills/views/hr_employee_skill_log_views.xml 
+2024-04-05 04:12:48,748 1940 INFO test odoo.modules.loading: loading hr_skills/data/hr_resume_data.xml 
+2024-04-05 04:12:48,764 1940 INFO test odoo.modules.loading: loading hr_skills/data/hr_skill_data.xml 
+2024-04-05 04:12:48,764 1940 INFO test odoo.modules.loading: loading hr_skills/data/ir_actions_server_data.xml 
+2024-04-05 04:12:48,779 1940 INFO test odoo.modules.loading: loading hr_skills/data/report_paperformat.xml 
+2024-04-05 04:12:48,798 1940 INFO test odoo.modules.loading: loading hr_skills/report/hr_employee_skill_report_views.xml 
+2024-04-05 04:12:48,817 1940 INFO test odoo.modules.loading: loading hr_skills/report/hr_employee_cv_report.xml 
+2024-04-05 04:12:48,833 1940 INFO test odoo.modules.loading: loading hr_skills/views/hr_department_views.xml 
+2024-04-05 04:12:48,848 1940 INFO test odoo.modules.loading: loading hr_skills/views/hr_employee_cv_templates.xml 
+2024-04-05 04:12:48,880 1940 INFO test odoo.modules.loading: loading hr_skills/wizard/hr_employee_cv_wizard_views.xml 
+2024-04-05 04:12:48,917 1940 INFO test odoo.modules.loading: Module hr_skills loaded in 1.86s, 648 queries (+648 other) 
+2024-04-05 04:12:48,917 1940 INFO test odoo.modules.loading: Loading module mail_bot_hr (46/56) 
+2024-04-05 04:12:49,117 1940 INFO test odoo.modules.loading: loading mail_bot_hr/views/res_users_views.xml 
+2024-04-05 04:12:49,249 1940 INFO test odoo.modules.loading: Module mail_bot_hr loaded in 0.33s, 53 queries (+53 other) 
+2024-04-05 04:12:49,249 1940 INFO test odoo.modules.loading: Loading module portal_rating (47/56) 
+2024-04-05 04:12:49,449 1940 INFO test odoo.modules.registry: module portal_rating: creating or updating database tables 
+2024-04-05 04:12:49,596 1940 INFO test odoo.modules.loading: loading portal_rating/views/rating_rating_views.xml 
+2024-04-05 04:12:49,603 1940 INFO test odoo.modules.loading: loading portal_rating/views/portal_templates.xml 
+2024-04-05 04:12:49,618 1940 INFO test odoo.modules.loading: loading portal_rating/views/rating_templates.xml 
+2024-04-05 04:12:49,650 1940 INFO test odoo.modules.loading: Module portal_rating loaded in 0.40s, 98 queries (+98 other) 
+2024-04-05 04:12:49,650 1940 INFO test odoo.modules.loading: Loading module hr_skills_survey (48/56) 
+2024-04-05 04:12:49,835 1940 INFO test odoo.modules.registry: module hr_skills_survey: creating or updating database tables 
+2024-04-05 04:12:49,950 1940 INFO test odoo.modules.loading: loading hr_skills_survey/views/hr_templates.xml 
+2024-04-05 04:12:49,966 1940 INFO test odoo.modules.loading: loading hr_skills_survey/data/hr_resume_data.xml 
+2024-04-05 04:12:49,982 1940 INFO test odoo.modules.loading: loading hr_skills_survey/views/hr_employee_certification_views.xml 
+2024-04-05 04:12:50,199 1940 INFO test odoo.modules.loading: Module hr_skills_survey loaded in 0.55s, 108 queries (+108 other) 
+2024-04-05 04:12:50,199 1940 INFO test odoo.modules.loading: Loading module mass_mailing (49/56) 
+2024-04-05 04:12:50,552 1940 INFO test odoo.modules.registry: module mass_mailing: creating or updating database tables 
+2024-04-05 04:12:53,958 1940 INFO test odoo.modules.loading: loading mass_mailing/security/res_groups_data.xml 
+2024-04-05 04:12:54,111 1940 INFO test odoo.modules.loading: loading mass_mailing/security/ir.model.access.csv 
+2024-04-05 04:12:54,158 1940 INFO test odoo.modules.loading: loading mass_mailing/data/digest_data.xml 
+2024-04-05 04:12:54,190 1940 INFO test odoo.modules.loading: loading mass_mailing/data/ir_attachment_data.xml 
+2024-04-05 04:12:54,274 1940 INFO test odoo.modules.loading: loading mass_mailing/data/ir_config_parameter_data.xml 
+2024-04-05 04:12:54,290 1940 INFO test odoo.modules.loading: loading mass_mailing/data/ir_cron_data.xml 
+2024-04-05 04:12:54,312 1940 INFO test odoo.modules.loading: loading mass_mailing/data/ir_module_data.xml 
+2024-04-05 04:12:54,328 1940 INFO test odoo.modules.loading: loading mass_mailing/data/mailing_data_templates.xml 
+2024-04-05 04:12:54,343 1940 INFO test odoo.modules.loading: loading mass_mailing/data/mailing_list_contact.xml 
+2024-04-05 04:12:54,374 1940 INFO test odoo.modules.loading: loading mass_mailing/data/mailing_subscription_optout.xml 
+2024-04-05 04:12:54,407 1940 INFO test odoo.modules.loading: loading mass_mailing/data/mailing_subscription.xml 
+2024-04-05 04:12:54,412 1940 INFO test odoo.modules.loading: loading mass_mailing/data/res_users_data.xml 
+2024-04-05 04:12:54,490 1940 INFO test odoo.modules.loading: loading mass_mailing/wizard/mail_compose_message_views.xml 
+2024-04-05 04:12:54,512 1940 INFO test odoo.modules.loading: loading mass_mailing/wizard/mailing_contact_import_views.xml 
+2024-04-05 04:12:54,528 1940 INFO test odoo.modules.loading: loading mass_mailing/wizard/mailing_contact_to_list_views.xml 
+2024-04-05 04:12:54,544 1940 INFO test odoo.modules.loading: loading mass_mailing/wizard/mailing_list_merge_views.xml 
+2024-04-05 04:12:54,559 1940 INFO test odoo.modules.loading: loading mass_mailing/wizard/mailing_mailing_test_views.xml 
+2024-04-05 04:12:54,575 1940 INFO test odoo.modules.loading: loading mass_mailing/wizard/mailing_mailing_schedule_date_views.xml 
+2024-04-05 04:12:54,590 1940 INFO test odoo.modules.loading: loading mass_mailing/report/mailing_trace_report_views.xml 
+2024-04-05 04:12:54,628 1940 INFO test odoo.modules.loading: loading mass_mailing/views/mail_blacklist_views.xml 
+2024-04-05 04:12:54,675 1940 INFO test odoo.modules.loading: loading mass_mailing/views/mailing_filter_views.xml 
+2024-04-05 04:12:54,690 1940 INFO test odoo.modules.loading: loading mass_mailing/views/mailing_mobile_preview_content.xml 
+2024-04-05 04:12:54,712 1940 INFO test odoo.modules.loading: loading mass_mailing/views/mailing_trace_views.xml 
+2024-04-05 04:12:54,744 1940 INFO test odoo.modules.loading: loading mass_mailing/views/link_tracker_views.xml 
+2024-04-05 04:12:54,812 1940 INFO test odoo.modules.loading: loading mass_mailing/views/mailing_contact_views.xml 
+2024-04-05 04:12:54,859 1940 INFO test odoo.modules.loading: loading mass_mailing/views/mailing_list_views.xml 
+2024-04-05 04:12:54,906 1940 INFO test odoo.modules.loading: loading mass_mailing/views/mailing_mailing_views.xml 
+2024-04-05 04:12:55,044 1940 INFO test odoo.modules.loading: loading mass_mailing/views/mailing_subscription_views.xml 
+2024-04-05 04:12:55,060 1940 INFO test odoo.modules.loading: loading mass_mailing/views/mailing_subscription_optout_views.xml 
+2024-04-05 04:12:55,091 1940 INFO test odoo.modules.loading: loading mass_mailing/views/res_config_settings_views.xml 
+2024-04-05 04:12:55,129 1940 INFO test odoo.modules.loading: loading mass_mailing/views/utm_campaign_views.xml 
+2024-04-05 04:12:55,261 1940 INFO test odoo.modules.loading: loading mass_mailing/views/mailing_menus.xml 
+2024-04-05 04:12:55,376 1940 INFO test odoo.modules.loading: loading mass_mailing/views/mailing_templates_portal_layouts.xml 
+2024-04-05 04:12:55,414 1940 INFO test odoo.modules.loading: loading mass_mailing/views/mailing_templates_portal_management.xml 
+2024-04-05 04:12:55,430 1940 INFO test odoo.modules.loading: loading mass_mailing/views/mailing_templates_portal_unsubscribe.xml 
+2024-04-05 04:12:55,445 1940 INFO test odoo.modules.loading: loading mass_mailing/views/themes_templates.xml 
+2024-04-05 04:12:55,461 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets_themes.xml 
+2024-04-05 04:12:55,561 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_alert.xml 
+2024-04-05 04:12:55,592 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_blockquote.xml 
+2024-04-05 04:12:55,592 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_call_to_action.xml 
+2024-04-05 04:12:55,614 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_coupon_code.xml 
+2024-04-05 04:12:55,614 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_cover.xml 
+2024-04-05 04:12:55,614 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_color_blocks_2.xml 
+2024-04-05 04:12:55,630 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_company_team.xml 
+2024-04-05 04:12:55,646 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_comparisons.xml 
+2024-04-05 04:12:55,661 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_event.xml 
+2024-04-05 04:12:55,661 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_features.xml 
+2024-04-05 04:12:55,677 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_features_grid.xml 
+2024-04-05 04:12:55,677 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_hr.xml 
+2024-04-05 04:12:55,712 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_image_text.xml 
+2024-04-05 04:12:55,715 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_masonry_block.xml 
+2024-04-05 04:12:55,809 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_media_list.xml 
+2024-04-05 04:12:55,815 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_numbers.xml 
+2024-04-05 04:12:55,831 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_picture.xml 
+2024-04-05 04:12:55,831 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_product_list.xml 
+2024-04-05 04:12:55,846 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_rating.xml 
+2024-04-05 04:12:55,862 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_references.xml 
+2024-04-05 04:12:55,877 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_showcase.xml 
+2024-04-05 04:12:55,877 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_text_block.xml 
+2024-04-05 04:12:55,893 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_text_highlight.xml 
+2024-04-05 04:12:55,911 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_text_image.xml 
+2024-04-05 04:12:55,915 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_three_columns.xml 
+2024-04-05 04:12:55,915 1940 INFO test odoo.modules.loading: loading mass_mailing/views/snippets/s_title.xml 
+2024-04-05 04:12:55,977 1940 INFO test odoo.modules.loading: Module mass_mailing loaded in 5.78s, 2132 queries (+2132 other) 
+2024-04-05 04:12:55,977 1940 INFO test odoo.modules.loading: Loading module project (50/56) 
+2024-04-05 04:12:56,416 1940 INFO test odoo.modules.registry: module project: creating or updating database tables 
+2024-04-05 04:12:59,685 1940 INFO test odoo.modules.loading: loading project/security/project_security.xml 
+2024-04-05 04:13:00,255 1940 INFO test odoo.modules.loading: loading project/security/ir.model.access.csv 
+2024-04-05 04:13:00,355 1940 INFO test odoo.modules.loading: loading project/security/ir.model.access.xml 
+2024-04-05 04:13:00,355 1940 INFO test odoo.modules.loading: loading project/data/digest_data.xml 
+2024-04-05 04:13:00,387 1940 INFO test odoo.modules.loading: loading project/report/project_task_burndown_chart_report_views.xml 
+2024-04-05 04:13:00,402 1940 INFO test odoo.modules.loading: loading project/views/account_analytic_account_views.xml 
+2024-04-05 04:13:00,424 1940 INFO test odoo.modules.loading: loading project/views/digest_digest_views.xml 
+2024-04-05 04:13:00,440 1940 INFO test odoo.modules.loading: loading project/views/rating_rating_views.xml 
+2024-04-05 04:13:00,571 1940 INFO test odoo.modules.loading: loading project/views/project_update_views.xml 
+2024-04-05 04:13:00,623 1940 INFO test odoo.modules.loading: loading project/views/project_update_templates.xml 
+2024-04-05 04:13:00,656 1940 INFO test odoo.modules.loading: loading project/views/project_project_stage_views.xml 
+2024-04-05 04:13:00,725 1940 INFO test odoo.modules.loading: loading project/wizard/project_share_wizard_views.xml 
+2024-04-05 04:13:00,772 1940 INFO test odoo.modules.loading: loading project/views/project_collaborator_views.xml 
+2024-04-05 04:13:00,803 1940 INFO test odoo.modules.loading: loading project/views/project_task_type_views.xml 
+2024-04-05 04:13:00,872 1940 INFO test odoo.modules.loading: loading project/views/project_project_views.xml 
+2024-04-05 04:13:01,141 1940 INFO test odoo.modules.loading: loading project/views/project_task_views.xml 
+2024-04-05 04:13:01,589 1940 INFO test odoo.modules.loading: loading project/views/project_tags_views.xml 
+2024-04-05 04:13:01,624 1940 INFO test odoo.modules.loading: loading project/views/project_milestone_views.xml 
+2024-04-05 04:13:01,642 1940 INFO test odoo.modules.loading: loading project/views/res_partner_views.xml 
+2024-04-05 04:13:01,673 1940 INFO test odoo.modules.loading: loading project/views/res_config_settings_views.xml 
+2024-04-05 04:13:01,705 1940 INFO test odoo.modules.loading: loading project/views/mail_activity_plan_views.xml 
+2024-04-05 04:13:01,726 1940 INFO test odoo.modules.loading: loading project/views/mail_activity_type_views.xml 
+2024-04-05 04:13:01,742 1940 INFO test odoo.modules.loading: loading project/views/project_sharing_project_task_views.xml 
+2024-04-05 04:13:01,827 1940 INFO test odoo.modules.loading: loading project/views/project_portal_project_project_templates.xml 
+2024-04-05 04:13:01,858 1940 INFO test odoo.modules.loading: loading project/views/project_portal_project_task_templates.xml 
+2024-04-05 04:13:01,927 1940 INFO test odoo.modules.loading: loading project/views/project_task_templates.xml 
+2024-04-05 04:13:01,943 1940 INFO test odoo.modules.loading: loading project/views/project_sharing_project_task_templates.xml 
+2024-04-05 04:13:01,958 1940 INFO test odoo.modules.loading: loading project/report/project_report_views.xml 
+2024-04-05 04:13:02,005 1940 INFO test odoo.modules.loading: loading project/data/ir_cron_data.xml 
+2024-04-05 04:13:02,021 1940 INFO test odoo.modules.loading: loading project/data/mail_message_subtype_data.xml 
+2024-04-05 04:13:02,126 1940 INFO test odoo.modules.loading: loading project/data/mail_template_data.xml 
+2024-04-05 04:13:02,143 1940 INFO test odoo.modules.loading: loading project/data/project_data.xml 
+2024-04-05 04:13:02,159 1940 INFO test odoo.modules.loading: loading project/wizard/project_task_type_delete_views.xml 
+2024-04-05 04:13:02,175 1940 INFO test odoo.modules.loading: loading project/wizard/project_project_stage_delete_views.xml 
+2024-04-05 04:13:02,190 1940 INFO test odoo.modules.loading: loading project/views/project_menus.xml 
+2024-04-05 04:13:02,427 1940 INFO test odoo.modules.loading: Module project loaded in 6.45s, 2576 queries (+2576 other) 
+2024-04-05 04:13:02,427 1940 INFO test odoo.modules.loading: Loading module mass_mailing_themes (52/56) 
+2024-04-05 04:13:02,644 1940 INFO test odoo.modules.loading: loading mass_mailing_themes/data/ir_attachment_data.xml 
+2024-04-05 04:13:02,891 1940 INFO test odoo.modules.loading: loading mass_mailing_themes/views/mass_mailing_themes_templates.xml 
+2024-04-05 04:13:03,045 1940 INFO test odoo.modules.loading: Module mass_mailing_themes loaded in 0.62s, 79 queries (+79 other) 
+2024-04-05 04:13:03,045 1940 INFO test odoo.modules.loading: Loading module project_sms (54/56) 
+2024-04-05 04:13:03,276 1940 INFO test odoo.modules.registry: module project_sms: creating or updating database tables 
+2024-04-05 04:13:03,446 1940 INFO test odoo.modules.loading: loading project_sms/views/project_stage_views.xml 
+2024-04-05 04:13:03,477 1940 INFO test odoo.modules.loading: loading project_sms/views/project_task_type_views.xml 
+2024-04-05 04:13:03,525 1940 INFO test odoo.modules.loading: loading project_sms/views/project_project_views.xml 
+2024-04-05 04:13:03,530 1940 INFO test odoo.modules.loading: loading project_sms/views/project_task_views.xml 
+2024-04-05 04:13:03,530 1940 INFO test odoo.modules.loading: loading project_sms/security/ir.model.access.csv 
+2024-04-05 04:13:03,545 1940 INFO test odoo.modules.loading: loading project_sms/security/project_sms_security.xml 
+2024-04-05 04:13:03,592 1940 INFO test odoo.modules.loading: Module project_sms loaded in 0.55s, 183 queries (+183 other) 
+2024-04-05 04:13:03,592 1940 INFO test odoo.modules.loading: Loading module project_todo (55/56) 
+2024-04-05 04:13:03,893 1940 INFO test odoo.modules.registry: module project_todo: creating or updating database tables 
+2024-04-05 04:13:04,131 1940 INFO test odoo.modules.loading: loading project_todo/security/ir.model.access.csv 
+2024-04-05 04:13:04,147 1940 INFO test odoo.modules.loading: loading project_todo/security/project_todo_security.xml 
+2024-04-05 04:13:04,247 1940 INFO test odoo.modules.loading: loading project_todo/data/mail_activity_type_data.xml 
+2024-04-05 04:13:04,278 1940 INFO test odoo.modules.loading: loading project_todo/data/todo_template.xml 
+2024-04-05 04:13:04,278 1940 INFO test odoo.modules.loading: loading project_todo/views/project_task_views.xml 
+2024-04-05 04:13:04,378 1940 INFO test odoo.modules.loading: loading project_todo/views/project_todo_menus.xml 
+2024-04-05 04:13:04,394 1940 INFO test odoo.modules.loading: loading project_todo/wizard/mail_activity_todo_create.xml 
+2024-04-05 04:13:04,447 1940 INFO test odoo.modules.loading: Module project_todo loaded in 0.85s, 253 queries (+253 other) 
+2024-04-05 04:13:04,447 1940 INFO test odoo.modules.loading: 56 modules loaded in 41.89s, 15919 queries (+15919 extra) 
+2024-04-05 04:13:06,182 1940 INFO test odoo.modules.loading: Modules loaded. 
+2024-04-05 04:13:06,197 1940 INFO test odoo.modules.registry: Registry loaded in 104.712s 
+2024-04-05 04:13:06,197 1940 INFO test odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2024-04-05 04:13:06,197 1940 INFO test odoo.modules.registry: Registry changed, signaling through the database 
+2024-04-05 04:13:06,213 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:13:06] "POST /web/dataset/call_button HTTP/1.1" 200 - 37605 67.424 37.520
+2024-04-05 04:13:06,235 1940 INFO test odoo.addons.base.models.ir_http: Generating routing map for key None 
+2024-04-05 04:13:07,234 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:13:07] "GET /web HTTP/1.1" 200 - 81 0.117 0.882
+2024-04-05 04:13:23,299 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:13:23] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.016 0.169
+2024-04-05 04:13:23,377 1940 INFO test odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/8f88e33/web.assets_web.min.css (id:117) 
+2024-04-05 04:13:23,395 1940 INFO test odoo.addons.base.models.assetsbundle: Deleting attachments [16] (matching /web/assets/_______/web.assets_web.min.css) because it was replaced with /web/assets/8f88e33/web.assets_web.min.css 
+2024-04-05 04:13:23,462 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:13:23] "GET /web/offline HTTP/1.1" 200 - 6 0.001 0.068
+2024-04-05 04:13:23,478 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:13:23] "GET /web/assets/8f88e33/web.assets_web.min.css HTTP/1.1" 200 - 17 0.098 16.127
+2024-04-05 04:13:27,437 1940 INFO test odoo.addons.base.models.assetsbundle: Generating a new asset bundle attachment /web/assets/eb2a216/web.assets_web.min.js (id:118) 
+2024-04-05 04:13:27,437 1940 INFO test odoo.addons.base.models.assetsbundle: Deleting attachments [17] (matching /web/assets/_______/web.assets_web.min.js) because it was replaced with /web/assets/eb2a216/web.assets_web.min.js 
+2024-04-05 04:13:27,500 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:13:27] "GET /web/assets/eb2a216/web.assets_web.min.js HTTP/1.1" 200 - 13 0.031 20.201
+2024-04-05 04:13:27,568 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:13:27] "GET /web/webclient/load_menus/19f62a79b61a98518a69afe745ae9b6d8ef10e3b10851ec7571df1dd1dc62e64 HTTP/1.1" 200 - 2 0.000 0.000
+2024-04-05 04:13:27,568 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:13:27] "GET /web/webclient/translations/03bb81b153467894387ba49631890b5b75f576e9?lang=en_US HTTP/1.1" 200 - 3 0.000 0.016
+2024-04-05 04:13:28,239 1940 INFO test odoo.addons.partner_autocomplete.models.res_company: Starting enrich of company My Company (1) 
+2024-04-05 04:13:28,254 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:13:28] "POST /web/dataset/call_kw/res.company/iap_enrich_auto HTTP/1.1" 200 - 10 0.016 0.031
+2024-04-05 04:13:28,339 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:13:28] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 4 0.016 0.000
+2024-04-05 04:13:28,424 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:13:28] "GET /bus/websocket_worker_bundle?v=1.0.7 HTTP/1.1" 200 - 4 0.000 0.016
+2024-04-05 04:13:28,540 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:13:28] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.037
+2024-04-05 04:13:28,586 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:13:28] "POST /mail/init_messaging HTTP/1.1" 200 - 97 0.132 0.247
+2024-04-05 04:13:28,609 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:13:28] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.000 0.000
+2024-04-05 04:13:29,188 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:13:29] "GET /web/service-worker.js HTTP/1.1" 200 - 1 0.000 0.016
+2024-04-05 04:13:29,209 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:13:29] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 9 0.034 0.003
+2024-04-05 04:13:29,209 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:13:29] "POST /web/action/load HTTP/1.1" 200 - 7 0.002 0.020
+2024-04-05 04:13:35,294 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:13:35] "GET /discuss/channel/1/avatar_128?unique=9089dcdbbc3cbb48e25bad2862b63a28f768c5613f60fc363cac4b9468f89c03ab56df3477ac7d9cc63298463870a78325c4d5b7720517dc8e1e27a22de4d419 HTTP/1.1" 200 - 4 0.016 0.016
+2024-04-05 04:13:35,311 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:13:35] "GET /web/image/res.partner/2/avatar_128?unique=2024-04-05%2004%3A12%3A55 HTTP/1.1" 200 - 6 0.000 0.048
+2024-04-05 04:13:35,316 1940 INFO test werkzeug: 127.0.0.1 - - [05/Apr/2024 04:13:35] "POST /mail/inbox/messages HTTP/1.1" 200 - 5 0.004 0.034
+2024-04-05 04:43:19,787 1940 INFO ? odoo.service.server: Initiating shutdown 
+2024-04-05 04:43:19,790 1940 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2024-04-05 04:43:19,897 1940 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  

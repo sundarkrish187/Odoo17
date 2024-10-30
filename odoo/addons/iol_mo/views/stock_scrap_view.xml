@@ -1,0 +1,17 @@
+<odoo>
+<data>
+  <record id="stock_scrap_form_reason_code" model="ir.ui.view">
+        <field name="name">stock.scrap.form.reason.code</field>
+        <field name="model">stock.scrap</field>
+        <field name="inherit_id" ref="stock.stock_scrap_form_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//group/group" position='inside'>
+                <field name="mts_id" /> 
+            </xpath>
+            
+        </field>
+    </record>  
+
+    
+</data>
+</odoo>

@@ -1,0 +1,11 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_scrapreson_qty_user,scrapreson.qty,model_scrapreson_qty,base.group_user,1,1,1,1
+access_scrap_reason_code_user,scrap.reason.code,model_scrap_reason_code,base.group_user,1,1,1,1
+access_scrap_products_by_quantity_user,scrap.products.by.quantity,model_scrap_products_by_quantity,base.group_user,1,1,1,1
+access_scrap_product_line_user,scrap.product.line,model_scrap_product_line,base.group_user,1,1,1,1
+access_workorder_resourcesnew_user,workorder.resourcesnew,model_workorder_resourcesnew,base.group_user,1,1,1,1
+access_mts_rejection,mts.rejection,model_mts_rejection,base.group_user,1,1,1,1
+access_injector_label_reprint_user,injector.label.reprint,model_injector_label_reprint,base.group_user,1,1,1,1
+access_injector_label_print_manager,injector.label.print,model_injector_label_print,base.group_system,1,1,1,1
+access_injector_label_print_user,injector.label.print,model_injector_label_print,base.group_user,1,1,1,0
+access_btw_master_user,btw.master,model_btw_master,base.group_user,1,1,1,1

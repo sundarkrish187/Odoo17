@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+   <record id="action_mts_rejection_report" model="ir.actions.report">
+       <field name="name">MTS Report</field>
+       <field name="model">mts.rejection</field>
+       <field name="report_type">qweb-pdf</field>
+       <field name="report_name">iol_mo.report_mts_rejection_template</field>
+       <field name="report_file">iol_mo.report_mts_rejection_template</field>
+       <field name="print_report_name">(object.name or '').replace('/', '_')</field>
+       <field name="binding_model_id" ref="iol_mo.model_mts_rejection"/>
+       <field name="binding_type">report</field>
+   </record>
+
+</odoo>

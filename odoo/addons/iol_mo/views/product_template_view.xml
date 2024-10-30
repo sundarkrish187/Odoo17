@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="product_template_only_form_view_inherit" model="ir.ui.view">
+			<field name="name">product.template.product.form</field>
+			<field name="model">product.template</field>
+			<field name="inherit_id" ref="product.product_template_only_form_view" />
+			<field name="arch" type="xml">	
+                <field name="uom_po_id" position="after">
+                    <field name="disallow_multiple_lot_wo" />
+                    <field name="disallow_multiple_lot_against_blanks_id" />
+                    <field name="disallow_multiple_lot_against_sterile_batch" />
+                    <field name="type_of_product" />
+                </field>
+                <field name="categ_id" position="after">
+                    <field name="allow_negative_stock" invisible="type != 'product'" />
+                </field>
+
+			</field>
+		</record>
+
+
+        <record id="view_template_property_form_view_inherit" model="ir.ui.view">
+			<field name="name">product.template.property.form.inherit</field>
+			<field name="model">product.template</field>
+			<field name="inherit_id" ref="stock.view_template_property_form" />
+			<field name="arch" type="xml">               
+                <group name="expiry_and_lots" position="inside">
+                    <label for="expiration_year"/>
+                    <div>
+                        <field name="expiration_year" class="oe_inline"/>
+                    </div>
+                </group>                
+			</field>
+		</record>
+
+        <record id="product_category_form_view_inherit" model="ir.ui.view">
+            <field name="name">stock_no_negative.product.category.form</field>
+            <field name="model">product.category</field>
+            <field name="inherit_id" ref="stock.product_category_form_view_inherit" />
+            <field name="arch" type="xml">
+                <field name="removal_strategy_id" position="after">
+                    <field name="allow_negative_stock" />
+                </field>
+            </field>
+        </record>
+
+    </data>
+</odoo>

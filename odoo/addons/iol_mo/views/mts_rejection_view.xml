@@ -1,0 +1,62 @@
+<odoo>
+
+    <record id="view_mts_rejection_form" model="ir.ui.view">
+        <field name="name">mts.rejection.form</field>
+        <field name="model">mts.rejection</field>
+        <field name="arch" type="xml">
+            <form string="MTS Rejection Form" delete="0" create="0">
+
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"  readonly="1" />
+                            <field name="date"  readonly="1"  />
+                        </group>
+                        <group>
+                            <field name="src_location_id"  readonly="1" />
+                            <field name="dest_location_id" readonly="1" />
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Scrap Orders" name="scraporder">
+                            <field name="scrap_ids" readonly="1" >
+                                <tree string="Scrap Product Lines" >
+                                    <field name="name"/>
+                                    <field name="product_id"/>
+                                    <field name="scrap_qty"/>
+                                    <field name="product_uom_id"/>
+                                    <field name="lot_id"  />
+                                    <field name="location_id"/>
+                                    <field name="scrap_location_id"  />                            
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>                
+            </form>
+        </field>
+    </record>
+    <record id="view_mts_rejection_list" model="ir.ui.view">
+        <field name="name">mts.rejection.list</field>
+        <field name="model">mts.rejection</field>
+        <field name="arch" type="xml">
+            <tree string="MTS Rejection" delete="0" create="0">
+                <field name="name" />
+                <field name="src_location_id" />
+                <field name="dest_location_id" />
+                <field name="date" />
+            </tree>
+        </field>
+    </record>
+
+    <record id="open_view_mts_rejection_form" model="ir.actions.act_window">
+        <field name="name">MTS Rejection Report</field>
+        <field name="res_model">mts.rejection</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <menuitem id="menu_view_mts_rejection_form"
+          name="Rejection MTS"
+          parent="mrp.menu_mrp_reporting"
+          action="open_view_mts_rejection_form"
+          sequence="22"/>   
+</odoo>

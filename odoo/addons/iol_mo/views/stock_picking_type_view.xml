@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_picking_type_form_inherit" model="ir.ui.view">
+			<field name="name">stock.picking.type.form</field>
+			<field name="model">stock.picking.type</field>
+			<field name="inherit_id" ref="stock.view_picking_type_form" />
+			<field name="arch" type="xml">
+				 
+
+                <xpath expr = "/form/sheet/notebook/page/group/group[2]" position = "inside" > 
+                        <field name="manufacturing_method"  required="code =='mrp_operation'" invisible="hide_manufacturing_method"  widget="radio" />
+						<field name="hide_manufacturing_method"   invisible="1"  />						                 
+                </xpath>
+
+			</field>
+		</record>
+    </data>
+</odoo>

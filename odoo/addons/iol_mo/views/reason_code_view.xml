@@ -1,0 +1,49 @@
+<odoo>
+    <!-- Scrap Reason Code Type -->
+    <record id="view_scrap_reason_code_form" model="ir.ui.view">
+        <field name="name">scrap.reason.code.form</field>
+        <field name="model">scrap.reason.code</field>
+        <field name="arch" type="xml">
+            <form string="Reason Code">
+                <group>
+                    <field name="name" />
+                </group>
+                <group>
+                    <field name="description" />
+                </group>
+                <group>
+                    <field name="location_id" />
+                </group>
+                <button name="action_print1" type="object" string="Print Label" class="btn-primary" />
+            </form>
+        </field>
+    </record>
+    <record id="view_scrap_reason_code_list" model="ir.ui.view">
+        <field name="name">scrap.reason.code.list</field>
+        <field name="model">scrap.reason.code</field>
+        <field name="arch" type="xml">
+            <tree string="Reason Codes">
+                <field name="name" />
+                <field name="description" />
+                <field name="location_id" />
+            </tree>
+        </field>
+    </record>
+    <record id="open_view_scrap_reason_code_form" model="ir.actions.act_window">
+        <field name="name">Scrap Reason Codes</field>
+        <field name="res_model">scrap.reason.code</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="menu_view_scrap_reason_code_form"
+          name="Scrap Code"
+          parent="mrp.menu_mrp_reporting"
+          action="open_view_scrap_reason_code_form"
+          groups="iol_mo.erp_user_group"
+          sequence="21"/>  
+
+    
+          
+          
+    
+</odoo>

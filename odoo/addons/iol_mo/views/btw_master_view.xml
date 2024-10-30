@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+        <!-- Action -->
+        <record id="action_btw_master" model="ir.actions.act_window">
+            <field name="name">BTW Master</field>
+            <field name="res_model">btw.master</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Menu Item -->
+        <menuitem id="menu_custom_administration" name="Administrator" parent="base.menu_administration"  sequence="120"/>
+         <menuitem id="menu_btw_master" name="BTW Master" parent="iol_mo.menu_custom_administration" action="action_btw_master" sequence="5"/>
+
+        <!-- Tree View -->
+        <record id="view_btw_master_tree" model="ir.ui.view">
+            <field name="name">btw.master.tree</field>
+            <field name="model">btw.master</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="product_type"/>
+                    <field name="department"/>
+                    <field name="model_no"/>
+                    <field name="type_name"/>
+                    <field name="label_name"/>
+                    <field name="file_name"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Form View -->
+        <record id="view_btw_master_form" model="ir.ui.view">
+            <field name="name">btw.master.form</field>
+            <field name="model">btw.master</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="product_type"/>
+                            <field name="department"/>
+                            <field name="model_no" options="{'no_create': True, 'no_create_edit':True}"/>
+                            <field name="type_name"/>
+                            <field name="label_name"/>
+                            <field name="file_name"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+    </data>
+</odoo>

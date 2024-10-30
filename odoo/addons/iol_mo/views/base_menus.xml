@@ -1,0 +1,21 @@
+<odoo>
+<data>
+    
+    <record model="ir.ui.menu" id="base.menu_management">
+        <field name="groups_id" eval="[(6,0,[ref('iol_mo.erp_user_group')])]"/>
+    </record>
+
+    <record model="ir.ui.menu" id="base.menu_administration">
+        <field name="groups_id" eval="[(6,0,[ref('iol_mo.erp_user_group')])]"/>
+    </record>
+
+    
+
+
+    
+
+
+    
+
+</data>
+</odoo>

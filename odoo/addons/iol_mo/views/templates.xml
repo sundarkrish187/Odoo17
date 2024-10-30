@@ -1,0 +1,11 @@
+<odoo>
+    <!-- <template id="db_user_info" name="Db user info" inherit_id="web.layout">
+        <xpath expr="//link[@rel='shortcut icon']" position="before">
+            <t t-esc="request.env['ir.http'].get_request_db()"/>
+            <br/>
+            <t t-esc="request.env.user.name"/>
+            <t t-esc="user.name"/>
+            <br/>
+        </xpath>
+    </template> -->
+</odoo>
