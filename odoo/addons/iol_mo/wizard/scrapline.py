@@ -108,20 +108,30 @@ class ScrapProductsByQuantity(models.TransientModel):
             cur_and_pre_workorders = self.get_cur_and_pre_workorders()
             self.scrap_line = [(5, 0, 0)]
 
+            
+
             for workorder in cur_and_pre_workorders:
                 for move in workorder.move_raw_ids:
                     move_lines = self.env['stock.move.line'].search([('move_id', 'in', move.ids)])
                     
                     for move_line in move_lines:
                         lot_id = move_line.lot_id.ids[0] if move_line.lot_id else False
-                        
+                        qty=0
+                        for bom_line_ids in workorder.production_id.bom_id.bom_line_ids:                            
+                            if bom_line_ids.product_id.id == move.product_id.id:
+                                if bom_line_ids.bom_id.product_qty == 1:
+                                    qty=self.quantity * bom_line_ids.product_qty
+                                else:
+                                    qty=self.quantity * bom_line_ids.product_qty / bom_line_ids.bom_id.product_qty
+                                break
+
                         vals = { 
                             'product_id': move.product_id.id,
                             'scrap_id': self.ids[0],             
                             'lot_id': lot_id,       
                             'src_loc_id': self.src_location_id.id,
                             'dest_loc_id': self.dest_location_id.id,
-                            'quantity': self.quantity,  
+                            'quantity': qty,  
                         }            
                         values.append(vals)  
 
