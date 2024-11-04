@@ -61,7 +61,7 @@ class MrpWorkorder(models.Model):
                                     else:
                                         if sum([move_line.quantity for move_line in raw_move_lines]) !=record.qty_produced * bom_line_ids.product_qty / bom_line_ids.bom_id.product_qty: # Only check Injector and IOL
                                             raise ValidationError(_("check Quantity for the raw product. (%s) " )% (raw_move.product_id.name)) 
-                                    
+                                    break
 
                             
                         else:
