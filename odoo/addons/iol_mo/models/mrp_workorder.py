@@ -52,7 +52,7 @@ class MrpWorkorder(models.Model):
                             raw_move_lines = self.env['stock.move.line'].search([('move_id', '=', raw_move.id)])
                             if record.product_id.type_of_product ==False:
                                 continue  
-                            
+
                             for bom_line_ids in record.production_id.bom_id.bom_line_ids:                            
                                 if bom_line_ids.product_id.id == raw_move.product_id.id:
                                     if bom_line_ids.bom_id.product_qty == 1:
@@ -61,7 +61,7 @@ class MrpWorkorder(models.Model):
                                     else:
                                         if sum([move_line.quantity for move_line in raw_move_lines]) !=record.qty_produced * bom_line_ids.product_qty / bom_line_ids.bom_id.product_qty: # Only check Injector and IOL
                                             raise ValidationError(_("check Quantity for the raw product. (%s) " )% (raw_move.product_id.name)) 
-                                    break
+                                    
 
                             
                         else:
