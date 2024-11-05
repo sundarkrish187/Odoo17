@@ -116,10 +116,7 @@ class InjectorLabelPrint(models.Model):
         for database in databases:
 
             try:
-                if database == 'PHILIC':                    
-                    conn_str = ("DRIVER={ODBC Driver 17 for SQL Server};" "SERVER=IOLSERVER2023;" "DATABASE="+database+";" "UID=sa;" "PWD=sachin3123!@#;" )  
-                else:
-                    conn_str = ("DRIVER={ODBC Driver 17 for SQL Server};" "SERVER=13.127.122.180;" "DATABASE="+database+";" "UID=pandian-admin;" "PWD=aspiration2@sep2024;" )   
+                conn_str = ("DRIVER={ODBC Driver 17 for SQL Server};" "SERVER=13.127.122.180;" "DATABASE="+database+";" "UID=pandian-admin;" "PWD=aspiration2@sep2024;" )                      
                             
                 conn = pyodbc.connect(conn_str)
                 cursor = conn.cursor()

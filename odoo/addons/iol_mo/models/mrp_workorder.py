@@ -46,13 +46,13 @@ class MrpWorkorder(models.Model):
         if 'state' in values:            
             if values['state'] == 'done':
                 for record in self:
-                    raw_moves = self.env['stock.move'].search(['&',('workorder_id', '=', record.id),('raw_material_production_id', '=', record.production_id.id)])
+                    raw_moves = self.env['stock.move'].search(['&',('scrapped', '=', False),('raw_material_production_id', '=', record.production_id.id)])
                     for raw_move in raw_moves:
                         if raw_move.lot_ids:
                             raw_move_lines = self.env['stock.move.line'].search([('move_id', '=', raw_move.id)])
                             if record.product_id.type_of_product ==False:
                                 continue  
-
+                            # validation for quantity
                             for bom_line_ids in record.production_id.bom_id.bom_line_ids:                            
                                 if bom_line_ids.product_id.id == raw_move.product_id.id:
                                     if bom_line_ids.bom_id.product_qty == 1:
