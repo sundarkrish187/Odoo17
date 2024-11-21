@@ -137,8 +137,13 @@ class MrpWorkorder(models.Model):
                     raise UserError(_('Please Complete previous Workorder'))
                 
             if workorder.product_id.tracking == 'lot':
-                if not workorder.finished_lot_id:
-                    raise UserError(_('You need to provide a lot for the finished product.'))
+                if workorder.production_id.picking_type_id.is_pmma_production_operation == False:
+                    if not workorder.finished_lot_id:
+                        raise UserError(_('You need to provide a lot for the finished product.'))
+                else:
+                    if not workorder.production_id.batch_line_ids:
+                        raise UserError(_('You need to provide atlease one lot for the finished product.'))
+                    
                 if not workorder.production_id.sterile_batch and workorder.product_id.categ_id.name == 'INJECTOR-ASSEMBLY':
                     raise UserError(_('You need to provide a Sterile batch number.'))
 

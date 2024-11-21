@@ -7,12 +7,13 @@
 			<field name="inherit_id" ref="stock.view_picking_type_form" />
 			<field name="arch" type="xml">
 				 
-
-                <xpath expr = "/form/sheet/notebook/page/group/group[2]" position = "inside" > 
-                        <field name="manufacturing_method"  required="code =='mrp_operation'" invisible="hide_manufacturing_method"  widget="radio" />
-						<field name="hide_manufacturing_method"   invisible="1"  />						                 
+				<xpath expr="//field[@name='create_backorder']" position="after">
+                    <field name="is_pmma_production_operation" /> 
+					<field name="is_pmma_tumbling_operation" /> 
                 </xpath>
 
+
+                 
 			</field>
 		</record>
     </data>

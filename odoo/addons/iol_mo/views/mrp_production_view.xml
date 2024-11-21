@@ -6,6 +6,42 @@
 			<field name="model">mrp.production</field>
 			<field name="inherit_id" ref="mrp.mrp_production_form_view" />
 			<field name="arch" type="xml">
+
+				 
+
+				<!-- pmma lathe -->
+				<xpath expr="//form/sheet/notebook" position="inside">
+					<page string="Batch Lines" invisible="state == 'draft' or product_tracking in ('none', False) or not is_pmma_prodution_operation_type"   >
+						<field name="batch_line_ids" nolabel="1" readonly="state == 'done'"> 							
+							<tree editable="bottom"> 
+								<field name="production_id" column_invisible="True"/>
+								<field name="product_id" column_invisible="True"/>
+								<field name="product_tracking" column_invisible="True"/>
+								<field name="batch_id"
+                                    context="{'default_product_id': product_id ,'default_production_id': production_id}" invisible="product_tracking in ('none', False)"  /> 
+								<field name="quantity"/>  
+							</tree>
+						</field>						
+					</page>
+				</xpath>
+
+				<xpath expr="//form/sheet/group" position="after">
+					<group invisible="not is_pmma_prodution_operation_type or state == 'draft' ">
+						<group>
+							<field name="lot_number_from" string="Lot Number From" readonly="state == 'done'"/>
+							<field name="lot_number_to" string="To" readonly="state == 'done'" />
+							
+						</group> 	
+					</group> 	
+					<button name="action_create_batch_lines" type="object" string="Create Batch Lines" invisible="state == 'draft' or state == 'done' or not is_pmma_prodution_operation_type" class="oe_highlight"/>
+				</xpath>
+				
+				
+				<!-- pmma lathe -->
+
+
+				
+				
 				<button name="action_assign" position="replace">
 					<button name="action_assign" invisible="1" string="Check availability" type="object" class="oe_highlight"/>
 				</button>
@@ -21,10 +57,23 @@
                 	<field name="qty_producing" class="text-start" readonly="True"/> /
 				</field>
 
+				
+
+				<field name="lot_producing_id" position="after">
+					<field name="is_pmma_prodution_operation_type" invisible="1"/>
+                	<field name="wo_is_running" invisible="1"/>
+					<field name="first_wo_finish" invisible="1"/>   
+				</field>
+
+
+				<xpath expr="//label[@for='lot_producing_id']" position="replace">
+					<label for="lot_producing_id" invisible="state == 'draft' or product_tracking in ('none', False) or is_pmma_prodution_operation_type"/>
+				</xpath>
+
 
 				<field name="lot_producing_id" position="replace">
                 	<field name="lot_producing_id"
-                        context="{'default_product_id': product_id, 'default_company_id': company_id, 'default_production_id': id}" invisible="product_tracking in ('none', False)" 
+                        context="{'default_product_id': product_id, 'default_company_id': company_id, 'default_production_id': id}" invisible="product_tracking in ('none', False) or is_pmma_prodution_operation_type" 
 						readonly="first_wo_finish"/>
 				</field>
 				<button name="action_generate_serial" position="replace">
@@ -32,10 +81,7 @@
 					 		title="Creates a new serial/lot number" role="img" invisible="1"/>
 				</button>
 
-				<field name="lot_producing_id" position="after">
-                	<field name="wo_is_running" invisible="1"/>
-					<field name="first_wo_finish" invisible="1"/>					
-				</field>
+				
 
 				<field name="user_id" position="after">
 					<field name="sterile_batch" readonly="first_wo_finish" invisible="not is_inj_assembly_products" /> 

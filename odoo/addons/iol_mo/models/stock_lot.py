@@ -47,13 +47,19 @@ class StockLot(models.Model):
         
         if lot.production_id:
             if lot.product_id.tracking =='lot':
-                if lot.product_id.id == lot.production_id.product_id.id:
-                    if len(self.env['stock.lot'].search(['&',('production_id', '=', lot.production_id.id),('product_id','=',lot.product_id.id),('company_id','=',lot.company_id.id)])) > 1:
-                        raise ValidationError("You can not create multiple Lot number for single MO.")
+                if lot.production_id.picking_type_id.is_pmma_production_operation == False:
+
+                    if lot.product_id.id == lot.production_id.product_id.id:
+                        if len(self.env['stock.lot'].search(['&',('production_id', '=', lot.production_id.id),('product_id','=',lot.product_id.id),('company_id','=',lot.company_id.id)])) > 1:
+                            raise ValidationError("You can not create multiple Lot number for single MO.")
+                        else:
+                            return lot
                     else:
-                        return lot
+                        raise ValidationError("You can not change product")
                 else:
-                    raise ValidationError("You can not change product")
+                    return lot
+            else:
+                return lot
         else:
             return lot
 

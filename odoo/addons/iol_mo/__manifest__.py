@@ -29,6 +29,7 @@ Long description of module's purpose
         'views/mrp_production_view.xml',
         'views/product_template_view.xml',
         'views/stock_lot_view.xml',
+        'views/stock_move_view.xml',
         'views/mrp_workorder_view.xml',
         'views/reason_code_view.xml',
         'views/mrp_routing_view.xml',
@@ -38,7 +39,8 @@ Long description of module's purpose
         'views/stock_quant_view.xml',  
         'views/base_menus.xml',  
         'views/Injector_label_print.xml',  
-        'views/btw_master_view.xml',    
+        'views/btw_master_view.xml',   
+        'views/stock_picking_type_view.xml' ,
         'wizard/scrapline_view.xml',
         'wizard/injector_label_reprint_view.xml',
         "reports/mts_rejection_report_template.xml",
@@ -46,7 +48,7 @@ Long description of module's purpose
         
         'security/security.xml',
         'security/ir.model.access.csv',
-        #'views/stock_picking_type_view.xml'
+       
     ],
 
     # only loaded in demonstration mode

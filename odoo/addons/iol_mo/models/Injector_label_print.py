@@ -144,7 +144,7 @@ class InjectorLabelPrint(models.Model):
                                             self.sterile_batch,self.remaining_qty, self.env['res.users'].browse(self.env.uid).name, self.btw_master_id.label_name))
                     conn.commit() 
             except Exception as e: 
-                print(f"An error occurred: {e}")
+                raise UserError(('Error occurred ')) 
                 
             finally:
                 cursor.close()

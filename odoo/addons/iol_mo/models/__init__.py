@@ -17,3 +17,4 @@ from . import mts_rejection
 from . import stock_scrap 
 from . import Injector_label_print
 from . import btw_master
+from.import mrp_production_batch_line

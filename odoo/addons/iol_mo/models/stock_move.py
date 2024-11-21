@@ -35,7 +35,7 @@ class StockMove(models.Model):
                     if len(move.lot_ids) > 1:
                         if move.lot_ids.production_id and move.lot_ids.production_id.move_raw_ids :
                             if len(move.lot_ids.production_id.move_raw_ids.lot_ids.search(['&',
-                                    ('product_id','=',move.lot_ids.production_id.move_raw_ids.product_id.search([('disallow_multiple_lot_wo','=',True)]).id), 
+                                    ('product_id','in',move.lot_ids.production_id.move_raw_ids.product_id.search(['&',('disallow_multiple_lot_wo','=',True),('id','in',move.lot_ids.production_id.move_raw_ids.product_id.ids) ]).ids), 
                                     ('id', 'in', move.lot_ids.production_id.move_raw_ids.lot_ids.ids)])) > 1:
 
                                 raise ValidationError(
@@ -84,6 +84,41 @@ class StockMove(models.Model):
                             
 
         return res
+    
+    production_ids = fields.Many2many( 'mrp.production',  string='Manufacturing Orders',
+                                        domain="[('product_id', '=', product_id), ('company_id', '=', company_id), ('id', 'in', compute_production_ids) ]"  )
+    compute_production_ids = fields.One2many('mrp.production',compute="_compute_production_ids" ) 
+    is_pmma_tumbling_operation_type = fields.Boolean(compute='_compute_is_pmma_tumbling_operation_type' )
 
 
-   
+    @api.depends('raw_material_production_id.picking_type_id')
+    def _compute_is_pmma_tumbling_operation_type(self):
+        for move in self:
+            if move.raw_material_production_id.picking_type_id.is_pmma_tumbling_operation == True:
+                move.is_pmma_tumbling_operation_type = True
+            else:
+                move.is_pmma_tumbling_operation_type = False
+                
+
+    @api.depends('product_id','location_id','company_id')
+    def _compute_production_ids(self):        
+        production_ids=self.env['mrp.production'].search([ ('id','in',self.env['stock.quant'].search(['&',('location_id','in',self.location_id.ids), ('product_id','in',self.product_id.ids ), ('company_id','=',self.company_id.id )]).lot_id.production_id.ids)])
+        self.compute_production_ids = [(6, 0, [x.id for x in production_ids])] 
+
+    def action_assign_lots(self): 
+        for move in self:
+            ml= self.env['stock.move.line'].search([('move_id','in', self.env['stock.move'].search([ ('production_id','in', move.production_ids.ids)]).ids )])
+            stock_quant_ids= self.env['stock.quant'].search([ '&',('lot_id','in', ml.lot_id.ids ),('product_id','=', move.product_id.id),('location_id','=', move.location_id.id), ('company_id','=', move.company_id.id) ])
+            for sq in stock_quant_ids:
+                self.env['stock.move.line'].create({
+                            'move_id': move.id, 
+                            'product_id': move.product_id.id,
+                            'product_uom_id': move.product_id.uom_id.id,
+                            'state': 'assigned',
+                            'quantity': sq.available_quantity,
+                            'quantity_product_uom': sq.available_quantity,
+                            'location_id': move.location_id.id,
+                            'location_dest_id': move.location_dest_id.id,
+                            'lot_id': sq.lot_id.id,  
+                            'quant_id':sq.id,
+                        })

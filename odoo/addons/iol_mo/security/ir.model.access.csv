@@ -9,3 +9,4 @@ access_injector_label_reprint_user,injector.label.reprint,model_injector_label_r
 access_injector_label_print_manager,injector.label.print,model_injector_label_print,base.group_system,1,1,1,1
 access_injector_label_print_user,injector.label.print,model_injector_label_print,base.group_user,1,1,1,0
 access_btw_master_user,btw.master,model_btw_master,base.group_user,1,1,1,1
+access_mrp_production_batch_line_user,mrp.production.batch.line,model_mrp_production_batch_line,base.group_user,1,1,1,1
